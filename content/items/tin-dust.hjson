@@ -1,0 +1,14 @@
+{
+type: material
+name: tin dust
+description: made from crushing tin, used in bronze and some other alloy
+cost: 3.0
+color: ffffff
+research: tin
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}

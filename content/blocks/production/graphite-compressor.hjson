@@ -1,0 +1,27 @@
+{
+name: graphite compressor
+description: compresses carbon dusts into refined graphite platesres 1 carbon dust pile in its craft to setup the presser
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: coal
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+graphite/1
+]
+
+consumes: {
+items: [
+carbon-dust/2
+]
+}
+
+requirements: [
+lead/25
+copper/100
+carbon-dust/1
+]
+}

@@ -1,0 +1,31 @@
+{
+name: tube molder
+description: molds hot glass into glass tubes and cools it down
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: hot-glass
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+glass-tube/2
+]
+
+consumes: {
+items: [
+hot-glass/2
+]
+liquids: [
+steam/0.1
+]
+}
+
+requirements: [
+lead/25
+graphite/10
+copper/25
+bronze/35
+]
+}

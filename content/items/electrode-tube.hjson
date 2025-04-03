@@ -1,0 +1,14 @@
+{
+type: material
+name: electrode tube
+description: made from putting copper electrodes and tin wire into glass tube, used in basic circuit assembly
+cost: 3.0
+color: ffffff
+research: glass-tube
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+}

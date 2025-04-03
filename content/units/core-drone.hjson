@@ -1,0 +1,24 @@
+type: legs
+legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+groundLayer: 60
+name: core drone
+description: weakest core drone, has everything enough to survive on auathia(blehh)
+health: 135
+armor: 1
+mineFloor: true
+mineWalls: true
+speed: 1.2
+hitSize: 6
+isEnemy: false
+mineSpeed: 4.5
+mineTier: 2
+buildSpeed: 0.4
+drag: 0.4
+itemCapacity: 20
+alwaysUnlocked: true
+outlineColor: 42413e

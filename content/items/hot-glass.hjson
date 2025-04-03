@@ -1,0 +1,14 @@
+{
+type: material
+name: hot glass
+description: obtained by smelting glass dust and coal in glass smeltery, very hot but because of strange laws of the universe never cools down, used to be molded into shapes
+cost: 3.0
+color: ffffff
+research: sand
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 4
+hardness: 0
+}

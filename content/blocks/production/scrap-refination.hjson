@@ -1,0 +1,30 @@
+{
+name: scrap refination
+description: refines scrap by crushing it down and smelting dust into copper, lead and tin
+type: GenericCrafter
+health: 200
+size: 2
+category: crafting
+research: scrap
+
+craftTime: 160
+craftEffect: reactorsmoke
+outputItems: [
+copper/1
+lead/1
+tin/2
+]
+
+consumes: {
+items: [
+scrap/2
+]
+}
+
+requirements: [
+lead/40
+copper/50
+silicon/10
+graphite/15
+]
+}

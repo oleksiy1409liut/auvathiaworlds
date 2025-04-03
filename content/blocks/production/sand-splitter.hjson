@@ -1,0 +1,29 @@
+{
+name: sand splitter
+description: uses industrial filters to split ton of sand into quartz and gravel dust
+type: GenericCrafter
+health: 100
+size: 2
+category: crafting
+research: sand
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+gravel-dust/2
+quartz-dust/2
+]
+
+consumes: {
+items: [
+sand/10
+]
+}
+
+requirements: [
+coal/10
+graphite/10
+copper/25
+sand/10
+]
+}

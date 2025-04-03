@@ -1,0 +1,14 @@
+{
+type: material
+name: silicon dust
+description: product of mixing carbon and quartz dust
+cost: 3.0
+color: ffffff
+research: quartz-dust
+
+explosiveness: 0
+flammability: 1
+radioactivity: 0
+charge: 0
+hardness: 0
+}

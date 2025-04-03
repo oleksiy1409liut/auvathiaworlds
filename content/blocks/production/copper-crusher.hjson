@@ -1,0 +1,27 @@
+{
+name: copper crusher
+description: crushes copper into dust with its insane weight, currently useless
+type: GenericCrafter
+health: 200
+size: 2
+category: crafting
+research: coal
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+copper-dust/1
+]
+
+consumes: {
+items: [
+copper/2
+]
+}
+
+requirements: [
+lead/25
+copper/100
+graphite/10
+]
+}

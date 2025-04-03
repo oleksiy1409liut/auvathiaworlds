@@ -1,0 +1,30 @@
+{
+name: glass smelter
+description: smelts glass dust into hot glass which then can be molded into some shapes, also produces ashes as byproduct
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: sand
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+hot-glass/2
+ashes/1
+]
+
+consumes: {
+items: [
+glass-dust/2
+coal/1
+]
+}
+
+requirements: [
+lead/25
+graphite/10
+copper/25
+silicon/40
+]
+}

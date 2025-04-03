@@ -1,0 +1,38 @@
+{
+    "name": "smeltery",
+	"description": "smelts dusts with fuel into materials!",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "graphite", 
+    "requirements": [
+      "copper/80",
+      "lead/70",
+	  "graphite/20",
+    ],
+    "size": 3,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["auvathiaworlds-carbon-dust/1","auvathiaworlds-silicon-dust/1"]
+        },
+    "output":{
+        "items": ["silicon/4","auvathiaworlds-ashes/4"]
+        },
+    "craftTime": 60
+    },
+    {
+    "input": {
+        "items": ["auvathiaworlds-glass-dust/2","coal/1"]
+        },
+    "output":{
+        "items": ["auvathiaworlds-hot-glass/4","auvathiaworlds-ashes/1"]
+        },
+    "craftTime": 60
+    },
+]
+}

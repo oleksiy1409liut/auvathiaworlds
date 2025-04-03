@@ -1,0 +1,29 @@
+{
+name: bronze mixer
+description: mixes copper and tin dust into bronze dust
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: tin
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+bronze-dust/1
+]
+
+consumes: {
+items: [
+tin-dust/1
+copper-dust/1
+]
+}
+
+requirements: [
+lead/25
+graphite/20
+copper/25
+tin/10
+]
+}

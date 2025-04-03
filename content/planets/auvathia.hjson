@@ -1,0 +1,172 @@
+localizedName: Auvathia
+description: first planet of the cluster
+alwaysUnlocked: true
+mesh: [
+ {
+    //water
+    type: NoiseMesh
+    planet: auvathia
+    divisions: 5
+    seed: 7
+    radius: 1.229
+    color1: 587d89
+    color2: 5e95a8
+    octaves: 3.7
+    persistence: 1.1
+  }
+  {
+    //ferrinite
+    type: NoiseMesh
+    planet: auvathia
+    divisions: 5
+    radius: 1.22
+    seed: 94
+    color1: e9e9de
+    color2: c2c1b4
+    octaves: 3.7
+    persistence: 0.6
+  }
+  {
+    //sand
+    type: NoiseMesh
+    planet: auvathia
+    divisions: 6
+    seed: 101
+    radius: 1.2441
+    color1: babca8
+    color2: c6c282
+    octaves: 5.1
+    persistence: 0.8
+  }
+  {
+    //demetite
+    type: NoiseMesh
+    planet: auvathia
+    seed: 69
+    divisions: 5
+    color1: d5c995
+    color2: 666359
+    radius: 1.212
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1
+  }
+  {
+    //barite
+    type: NoiseMesh
+    planet: auvathia
+    divisions: 5
+    seed: 19
+    radius: 1.247
+    color1: f8efe6
+    color2: bab4ae
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //radian barite
+    type: NoiseMesh
+    planet: auvathia
+    divisions: 6
+    seed: 61
+    radius: 1.248
+    color1: 6b9388
+    color2: 425b54
+    octaves: 4.5
+    persistence: 1.1
+  }
+  {
+    //red sand
+    type: NoiseMesh
+    planet: auvathia
+    divisions: 6
+    seed: 17
+    radius: 1.2514
+    color1: dea67d
+    color2: d58b79
+    octaves: 5.7
+    persistence: 0.9
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: auvathia
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: auvathia
+   speed: 1.01
+   radius: 0.11
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.4
+   scl: 0.9
+   thresh: 0.6
+  }
+  {
+   type: HexSkyMesh
+   planet: auvathia
+   speed: 0.891
+   radius: 0.091
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 4
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 666359
+iconColor: 666359
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-sun
+parent: erekir
+solarSystem: sun
+launchCandidates: []

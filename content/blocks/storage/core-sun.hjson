@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: sun
+description: Core of the base. Armored and stores a medium amount of items.
+requirements: [
+  copper/1600
+  graphite/1200
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: core-drone
+health: 1450
+itemCapacity: 4500
+unitCapModifier: 8
+category: effect
+research: {
+  planet: auvathia
+  root: true
+  name: auvathia
+  requiresUnlock: false
+}

@@ -1,0 +1,13 @@
+name: "auvathiaworlds"
+description: 
+''' 
+the auvathia worlds project will focus on adding a new planet(maybe) cluster of planets that can connect with each other (first planets name is auvathia)
+  Enjoy!
+   also is the place of containment of some of my ideas like a gregtech-styled mod, so stuff inside the mod can clash
+'''
+author: "auvathia team (me, me,me,me and some people from mindustry server)"
+minGameVersion: 146
+version: "0.1"
+displayName: "Auvathia Worlds"
+subtitle: "alpha-beta test v0"
+dependencies: ["multi-crafter"]

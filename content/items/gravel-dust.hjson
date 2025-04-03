@@ -1,0 +1,14 @@
+{
+type: material
+name: gravel dust
+description: obtained from refining sand into quartz dust and this, used in glass dust
+cost: 3.0
+color: ffffff
+research: sand
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}

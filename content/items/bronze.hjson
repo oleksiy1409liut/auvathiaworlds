@@ -1,0 +1,14 @@
+{
+type: material
+name: bronze
+description: made from smelting bronze dust with coal, used in all of steam age machinery, holds of insane steam pressure and temperature from what its used in machinery
+cost: 3.0
+color: ffffff
+research: copper
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+}

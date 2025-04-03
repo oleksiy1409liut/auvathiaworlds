@@ -1,0 +1,30 @@
+{
+name: metaglass molder
+description: creates metaglass from hot glass and lead by pressing lead into hot glass and cooling it down
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: sand
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+metaglass/2
+]
+
+consumes: {
+items: [
+hot-glass/1
+lead/1
+]
+}
+
+requirements: [
+lead/25
+graphite/10
+copper/25
+silicon/40
+hot-glass/2
+]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "crusher",
+	"description": "crushes different weak items into dusts, may the multicrafter lib power be with us!",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "copper", 
+    "requirements": [
+      "copper/80",
+      "lead/70",
+    ],
+    "size": 2,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["copper/2"]
+        },
+    "output":{
+        "items": ["auvathiaworlds-copper-dust/2"]
+        },
+    "craftTime": 60
+    },
+    {
+    "input": {
+        "items": ["auvathiaworlds-tin/2"]
+        },
+    "output":{
+        "items": ["auvathiaworlds-tin-dust/2"]
+        },
+    "craftTime": 60
+    },
+        {
+    "input": {
+        "items": ["coal/2"]
+        },
+    "output":{
+        "items": ["auvathiaworlds-carbon-dust/2"]
+        },
+    "craftTime": 60
+    },
+]
+}

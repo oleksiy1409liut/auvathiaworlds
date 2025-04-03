@@ -1,0 +1,14 @@
+{
+type: material
+name: glass tube
+description: made by molding glass into a tube shape, used in electron tubes and maybe water containment
+cost: 3.0
+color: ffffff
+research: hot-glass
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+}

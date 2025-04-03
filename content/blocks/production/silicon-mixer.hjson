@@ -1,0 +1,30 @@
+{
+name: silicon mixer
+description: combines carbon dust and quartz dust into silicon dust, outputs scrap as byproduct
+type: GenericCrafter
+health: 200
+size: 2
+category: crafting
+research: graphite
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+silicon-dust/1
+scrap/1
+]
+
+consumes: {
+items: [
+quartz-dust/2
+carbon-dust/2
+]
+}
+
+requirements: [
+lead/25
+graphite/20
+copper/25
+coal/2
+]
+}

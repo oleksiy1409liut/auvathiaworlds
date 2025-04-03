@@ -1,0 +1,29 @@
+{
+name: steam boiler
+description: boils water using coal into steam, makes byproduct ash
+type: GenericCrafter
+health: 150
+size: 3
+category: crafting
+research: coal
+
+craftTime: 90
+craftEffect: reactorsmoke
+outputLiquid: steam/1
+outputItem: ashes/1
+
+consumes: {
+items: [
+coal/1
+]
+liquids: [
+water/0.5
+]
+}
+
+requirements: [
+graphite/25
+metaglass/55
+bronze/35
+]
+}

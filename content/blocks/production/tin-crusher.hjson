@@ -1,0 +1,27 @@
+{
+name: tin crusher
+description: crushes tin into dust with its insane weight, curently useless
+type: GenericCrafter
+health: 200
+size: 2
+category: crafting
+research: coal
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+tin-dust/2
+]
+
+consumes: {
+items: [
+tin/2
+]
+}
+
+requirements: [
+lead/25
+copper/100
+silicon/10
+]
+}

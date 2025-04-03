@@ -1,0 +1,29 @@
+{
+name: silicon smeltery
+description: smelts silicon dust with carbon dust into silicon plates, produces more ashes than glass smeltery
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+research: graphite
+
+craftTime: 80
+craftEffect: reactorsmoke
+outputItems: [
+silicon/1
+ashes/3
+]
+
+consumes: {
+items: [
+silicon-dust/2
+carbon-dust/1
+]
+}
+
+requirements: [
+lead/35
+graphite/20
+copper/50
+]
+}
