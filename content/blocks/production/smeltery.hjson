@@ -18,19 +18,19 @@
     "recipes": [
     {
     "input": {
-        "items": ["auvathiaworlds-carbon-dust/1","auvathiaworlds-silicon-dust/1"]
+        "items": ["auvathiaworlds-carbon-dust/1","auvathiaworlds-silicon-dust/1",]
         },
     "output":{
-        "items": ["silicon/4","auvathiaworlds-ashes/4"]
+        "items": ["silicon/4","auvathiaworlds-ashes/4",]
         },
     "craftTime": 60
     },
     {
     "input": {
-        "items": ["auvathiaworlds-glass-dust/2","coal/1"]
+        "items": ["auvathiaworlds-glass-dust/2","coal/1",]
         },
     "output":{
-        "items": ["auvathiaworlds-hot-glass/4","auvathiaworlds-ashes/1"]
+        "items": ["auvathiaworlds-hot-glass/4","auvathiaworlds-ashes/1",]
         },
     "craftTime": 60
     },

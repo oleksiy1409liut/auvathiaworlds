@@ -1,0 +1,30 @@
+{
+    "name": "plate presser",
+	"description": "presses metals into plates",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "tin", 
+    "requirements": [
+      "copper/80",
+      "lead/70",
+	  "graphite/20",
+	  "tin/10",
+    ],
+    "size": 3,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["auvathiaworlds-tin/2",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-tin-plate/2",]
+        },
+    "craftTime": 60
+    },
+]
+}
