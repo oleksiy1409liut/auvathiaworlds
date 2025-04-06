@@ -1,0 +1,40 @@
+{
+    "name": "assembler",
+	"description": "assembles complex items, uses batch crafting technology",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "tin", 
+    "requirements": [
+      "copper/80",
+      "lead/70",
+	  "graphite/20",
+	  "tin/10",
+	  "silicon/20",
+    ],
+    "size": 3,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["auvathiaworlds-copper-electrode/12","auvathiaworlds-tin-coil/9","auvathiaworlds-glass-tube/3",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-electrode-tube/3"]
+        },
+    "craftTime": 120
+    },
+	{
+    "input": {
+        "items": ["auvathiaworlds-copper-electrode/8","auvathiaworlds-tin-plate/8","auvathiaworlds-electrode-tube/8",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-LV-circuit-chip/4",]
+        },
+    "craftTime": 120
+    },
+]
+}

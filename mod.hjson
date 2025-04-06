@@ -7,7 +7,7 @@ the auvathia worlds project will focus on adding a new planet(maybe) cluster of 
 '''
 author: "auvathia team (me, me,me,me and some people from mindustry server)"
 minGameVersion: 146
-version: "0.1"
+version: "0.2"
 displayName: "Auvathia Worlds"
-subtitle: "alpha-beta test v0"
+subtitle: "alpha v0.1"
 dependencies: ["multi-crafter"]

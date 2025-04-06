@@ -1,0 +1,30 @@
+{
+    "name": "electrode presser",
+	"description": "presses metals into electrodes",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "silicon", 
+    "requirements": [
+      "copper/90",
+      "lead/70",
+	  "graphite/20",
+	  "tin/10",
+    ],
+    "size": 3,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["copper/2",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-copper-electrode/1"]
+        },
+    "craftTime": 60
+    },
+]
+}

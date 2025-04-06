@@ -1,0 +1,14 @@
+{
+type: material
+name: tin coil
+description: made in wiremill, used in electrode tubes and wire blocks
+cost: 3.0
+color: ffffff
+research: tin
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 2
+}
