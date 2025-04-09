@@ -6,7 +6,23 @@ health: 150
 size: 3
 category: crafting
 research: coal
-
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 craftTime: 90
 craftEffect: reactorsmoke
 outputLiquid: steam/1
