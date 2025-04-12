@@ -6,7 +6,23 @@ health: 200
 size: 3
 category: crafting
 research: tin
-
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -liquid
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 craftTime: 80
 craftEffect: reactorsmoke
 outputItems: [
