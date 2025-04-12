@@ -1,0 +1,14 @@
+{
+name: Molten Material
+description: Can be obtained from any material smeltery
+type: liquid
+temperature: 1.5
+viscosity: 0.7
+flammability: 0
+explosiveness: 0
+heatCapacity: 0.5
+color: ffa166
+lightColor: f0511d
+research: water
+gas: false
+}

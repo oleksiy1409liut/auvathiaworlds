@@ -10,12 +10,39 @@
       "lead/70",
 	  "graphite/20",
     ],
-    "size": 3,
-    "hasLiquids": false,
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    {
+      "type": "DrawRegion",
+      "suffix": "-bottom",
+    }
+    {
+      "type": "DrawLiquidTile",
+      "drawLiquid": "auvathiaworlds-molten-material",
+      "alpha": 0.7,
+    }
+    {
+      "type": "DrawDefault",
+    }
+    {
+      "type": "DrawDefault",
+    }
+    {
+      "type": "DrawFlame",
+      "suffix": "-top",
+    }
+    ]
+    }
+
+
+	"size": 3,
+    "hasLiquids": true,
     "hasItems": true,
     "craftEffect": "none",
     "itemCapacity": 30,
-    "recipes": [
+    "liquidCapacity": 90,
+	"recipes": [
     {
     "input": {
         "items": ["auvathiaworlds-carbon-dust/1","auvathiaworlds-silicon-dust/1",]
@@ -32,6 +59,16 @@
     "output":{
         "items": ["auvathiaworlds-hot-glass/4","auvathiaworlds-ashes/1",]
         },
+    "craftTime": 60
+    },
+    {
+    "input": {
+        "items": ["auvathiaworlds-bronze-dust/2","coal/1",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-bronze/2",]
+        "fluids": ["auvathiaworlds-molten-material/1",]
+		},
     "craftTime": 60
     },
 ]
