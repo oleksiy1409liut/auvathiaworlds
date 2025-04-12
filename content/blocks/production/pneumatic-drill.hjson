@@ -1,0 +1,7 @@
+{
+requirements: [
+copper/50
+LV-circuit-chip/10
+graphite/15
+]
+}
