@@ -5,9 +5,9 @@ the auvathia worlds project will focus on adding a new planet(maybe) cluster of 
   Enjoy!
    also is the place of containment of some of my ideas like a gregtech-styled mod, so stuff inside the mod can clash
 '''
-author: "auvathia team (me, me,me,me and some people from mindustry server)"
+author: "Auvathia team (Me,Angy Cat and some people from mindustry server)"
 minGameVersion: 146
-version: "0.2"
-displayName: "Auvathia Worlds"
-subtitle: "alpha v0.1.1"
+version: "alpha v0.1.2"
+displayName: "Warning! The mod is very experimental so chamge wiill happen!"
+subtitle: "alpha v0.1.2"
 dependencies: ["multi-crafter"]

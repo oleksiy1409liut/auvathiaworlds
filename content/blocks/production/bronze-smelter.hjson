@@ -1,4 +1,4 @@
-{
+comm{
 name: bronze smelter
 description: smelts bronze dust into bronze ingot with coal, makes ashes as byproduct
 type: GenericCrafter
@@ -6,7 +6,30 @@ health: 200
 size: 3
 category: crafting
 research: sand
-
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      alpha: 0.7
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      suffix: -heat
+    }
+  ]
+}
 craftTime: 80
 craftEffect: reactorsmoke
 outputItems: [
