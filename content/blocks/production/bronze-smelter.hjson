@@ -1,4 +1,4 @@
-comm{
+{
 name: bronze smelter
 description: smelts bronze dust into bronze ingot with coal, makes ashes as byproduct
 type: GenericCrafter
