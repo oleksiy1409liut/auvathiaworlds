@@ -3,7 +3,7 @@ name: Chemical Etra
 description: Uses any given chemical(according to said chemical`s properties) and to fuse two or more items and/or fluids. Produces heat Currently Useless...
 type: multicraft.MultiCrafter
 health: 350
-size: 23
+size: 3
 category: crafting
 research: graphite
 
