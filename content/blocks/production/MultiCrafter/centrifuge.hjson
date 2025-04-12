@@ -35,7 +35,7 @@ recipes: [
     {
 	input: [
 	 fluids: [molten-material/2.5,steam/1.5,water/2]
-]
+         ]
 	output: [
 	 items: [copper/3,tin/1,bronze/1]
 	]
