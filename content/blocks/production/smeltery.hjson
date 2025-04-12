@@ -20,7 +20,7 @@
     {
       "type": "DrawLiquidTile",
       "drawLiquid": "auvathiaworlds-molten-material",
-      "alpha": 0.7,
+      "alpha": 0.1,
     }
     {
       "type": "DrawDefault",
@@ -67,9 +67,9 @@
         },
     "output":{
         "items": ["auvathiaworlds-bronze/2",]
-        "fluids": ["auvathiaworlds-molten-material/1",]
+        "fluids": ["auvathiaworlds-molten-material/0.2",]
 		},
-    "craftTime": 60
+    "craftTime": 75
     },
 ]
 }
