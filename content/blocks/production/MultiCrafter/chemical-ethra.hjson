@@ -1,0 +1,34 @@
+{
+name: Chemical Etra
+description: Uses any given chemical(according to said chemical`s properties) and to fuse two or more items and/or fluids. Produces heat Currently Useless...
+type: multicraft.MultiCrafter
+health: 350
+size: 23
+category: crafting
+research: graphite
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+	  glowIntensity: 3.5
+	}
+    {
+      type: DrawRegion
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+
+requirements: [
+lead/55
+tin/40
+bronze/50
+copper/125
+]
+}

@@ -1,0 +1,70 @@
+{
+name: Centrifuge
+description: Uses Steam to generate centrifugal force and coolant to rapidly cool down Molten Material into more useful resources. 
+type: multicraft.MultiCrafter
+health: 350
+size: 2
+category: crafting
+research: graphite
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: molten-material
+      alpha: 0.1
+    }
+    {
+      type: DrawDefault
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -fan
+	  rotateSpeed: 15
+	  spinSprite: true
+    }
+  ]
+}
+
+recipes: [
+    {
+	input: [
+	 fluids: [molten-material/2.5,steam/1.5,water/2]
+	]
+	output: [
+	 items: [copper/3,tin/1,bronze/1]
+	]
+	craftTime: 65
+	}
+    {
+	input: [
+	 fluids: [molten-material/3,steam/1,cyrofluid/0.5]
+	]
+	output: [
+	 items: [graphite/1,tin/1]
+	]
+	craftTime: 70
+	}
+    {
+	input: [
+	 fluids: [molten-material/2,steam/2]
+	 items: [ashes/3,hot-glass/1,lead/2]
+	]
+	output: [
+	 items: [metaglass/1]
+	]
+	craftTime: 90
+	}
+]	
+requirements: [
+lead/55
+tin/40
+bronze/50
+copper/125
+]
+}
