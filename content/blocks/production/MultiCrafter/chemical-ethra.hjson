@@ -39,7 +39,7 @@ recipes: [
      items: [titanium/6]
 	}    
 	output: {
-	 fluids: [cyrofluid/1]
+	 fluids: [cryofluid/1]
 	 heat: 1
 	}
 	craftTime: 175
