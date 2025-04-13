@@ -1,6 +1,6 @@
 {
 name: Chemical Etra
-description: Uses any given chemical(according to said chemical`s properties) and to fuse two or more items and/or fluids. Produces heat Currently Useless...
+description: Uses any given chemical(according to said chemical`s properties) and to fuse two or more items and/or fluids. Produces heat.
 type: multicraft.MultiCrafter
 health: 350
 size: 3
@@ -26,9 +26,45 @@ drawer: {
 } 
 
 requirements: [
-lead/55
-tin/40
-bronze/50
-copper/125
+tin/125
+copper/95
+bronze/70
+silicon/55
 ]
+
+recipes: [
+    {
+	input: {
+	 fluids: [auvathiaworlds-molten-material/2.5,water/2]
+     items: [auvathiaworlds-bronze-dust/2]
+	}    
+	output: {
+	 items: [auvathiaworlds-tin/2,graphite/1,lead/1]
+	 heat: 1
+	}
+	craftTime: 245
+	}
+    {
+	input: {
+	 fluids: [water/1.5,auvathiaworlds-steam/1,cyrofluid/0.1]
+	 items: [auvathiaworlds-tin-dust/2,auvathiaworlds-hot-glass/1,silicon/1]
+	}
+	output: {
+	 items: [copper/1,metaglass/1]
+	 heat: 0.5
+	}
+	craftTime: 325
+	}
+    {
+	input: {
+	 fluids: [auvathiaworlds-molten-material/2,auvathiaworlds-steam/1]
+	 items: [auvathiaworlds-ashes/5,auvathiaworlds-tin-dust/3,auvathiaworlds-copper-electrode/2,auvathiaworlds-tin-coil/2]
+	}
+	output: {
+	 items: [auvathiaworlds-electrode-tube/1,auvathiaworlds-tin-plate/2]
+	 heat: 2
+	}
+	craftTime: 555
+	}
+]	
 }

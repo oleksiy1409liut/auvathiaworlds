@@ -33,31 +33,31 @@ drawer: {
 
 recipes: [
     {
-	input: [
-	 fluids: [molten-material/2.5,steam/1.5,water/2]
-         ]
-	output: [
-	 items: [copper/3,tin/1,bronze/1]
-	]
+	input: {
+	 fluids: [auvathiaworlds-molten-material/2.5,auvathiaworlds-steam/1.5,water/2]
+    }    
+	output: {
+	 items: [copper/3,auvathiaworlds-tin/1,auvathiaworlds-bronze/1]
+	}
 	craftTime: 65
 	}
     {
-	input: [
-	 fluids: [molten-material/3,steam/1,cyrofluid/0.5]
-	]
-	output: [
-	 items: [graphite/1,tin/1]
-	]
+	input: {
+	 fluids: [auvathiaworlds-molten-material/3,auvathiaworlds-steam/1,cyrofluid/0.5]
+	}
+	output: {
+	 items: [graphite/1,auvathiaworlds-tin/1]
+	}
 	craftTime: 70
 	}
     {
-	input: [
-	 fluids: [molten-material/2,steam/2]
-	 items: [ashes/3,hot-glass/1,lead/2]
-	]
-	output: [
+	input: {
+	 fluids: [auvathiaworlds-molten-material/2,auvathiaworlds-steam/2]
+	 items: [auvathiaworlds-ashes/3,auvathiaworlds-hot-glass/1,lead/2]
+	}
+	output: {
 	 items: [metaglass/1]
-	]
+	}
 	craftTime: 90
 	}
 ]	
