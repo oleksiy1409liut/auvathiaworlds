@@ -9,5 +9,5 @@ author: "Auvathia team (Me,Angy Cat and some people from mindustry server)"
 minGameVersion: 146
 version: "alpha v0.1.4"
 displayName: "Warning! The mod is very experimental so change will happen!(And the occasional crashing)"
-subtitle: "alpha v0.1.4"c
+subtitle: "alpha v0.1.4"
 dependencies: ["multi-crafter"]
