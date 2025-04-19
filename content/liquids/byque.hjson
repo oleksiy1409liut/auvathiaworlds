@@ -1,0 +1,14 @@
+{
+name: Byque
+description: Boom boom cool cool
+type: liquid
+temperature: 0.1
+viscosity: 1
+flammability: 2
+explosiveness: 2
+heatCapacity: 5
+color: 93789C
+lightColor: EAB678
+research: molten-material
+gas: false
+}
