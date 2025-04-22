@@ -12,7 +12,7 @@
 	  "tin/10",
 	  "silicon/20",
     ],
-    "size": 2,
+    "size": 3,
     "hasLiquids": false,
     "hasItems": true,
     "craftEffect": "none",

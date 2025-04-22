@@ -8,7 +8,10 @@
     drawer: {
       type: DrawMulti
       drawers: [
-      {  
+      {
+	   type: DrawDefault
+	  }
+	  {  
 	  type: DrawRegion
 	  suffix: -fan
 	  rotateSpeed: 1
@@ -29,7 +32,7 @@
     recipes: [
     {
     input: {
-        items: [auvathiaworlds-copper-dust/3auvathiaworlds-tin-dust/1]
+        items: [auvathiaworlds-copper-dust/3,auvathiaworlds-tin-dust/1]
         }
     output:{
         items: [auvathiaworlds-bronze-dust/4]
@@ -38,7 +41,7 @@
     }
     {
     input: {
-        items: [auvathiaworlds-quartz-dust/2auvathiaworlds-gravel-dust/2]
+        items: [auvathiaworlds-quartz-dust/2,auvathiaworlds-gravel-dust/2]
         }
     output:{
         items: [auvathiaworlds-glass-dust/4]
@@ -47,7 +50,7 @@
     }
     {
     input: {
-        items: [auvathiaworlds-quartz-dust/2auvathiaworlds-carbon-dust/2]
+        items: [auvathiaworlds-quartz-dust/2,auvathiaworlds-carbon-dust/2]
         }
     output:{
         items: [auvathiaworlds-silicon-dust/4]
