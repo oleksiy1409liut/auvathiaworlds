@@ -8,9 +8,6 @@
     drawer: {
       type: DrawMulti
       drawers: [
-      {
-      type: DrawDefault
-      }
       {  
 	  type: DrawRegion
 	  suffix: -fan
@@ -48,7 +45,7 @@
         }
     craftTime: 60
     }
-        {
+    {
     input: {
         items: [auvathiaworlds-quartz-dust/2auvathiaworlds-carbon-dust/2]
         }
