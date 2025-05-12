@@ -1,0 +1,14 @@
+{
+type: material
+name: magma rock
+description: most abundant material on osaka, hot but contains some water
+cost: 3.0
+color: ffffff
+research: core-sun
+
+explosiveness: 0
+flammability: 2
+radioactivity: 0
+charge: 0
+hardness: 0
+}
