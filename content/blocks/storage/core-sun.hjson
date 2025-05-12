@@ -15,8 +15,8 @@ itemCapacity: 4500
 unitCapModifier: 8
 category: effect
 research: {
-  planet: auvathia
+  planet: osaka
   root: true
-  name: auvathia
+  name: osaka
   requiresUnlock: false
 }
