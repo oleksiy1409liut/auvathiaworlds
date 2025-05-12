@@ -1,11 +1,11 @@
-localizedName: Auvathia
+localizedName: osaka
 description: first planet of the cluster
 alwaysUnlocked: true
 mesh: [
  {
     //water
     type: NoiseMesh
-    planet: auvathia
+    planet: osaka
     divisions: 5
     seed: 7
     radius: 1.229
@@ -15,9 +15,9 @@ mesh: [
     persistence: 1.1
   }
   {
-    //ferrinite
+    //magma-rock
     type: NoiseMesh
-    planet: auvathia
+    planet: osaka
     divisions: 5
     radius: 1.22
     seed: 94
@@ -29,9 +29,9 @@ mesh: [
   {
     //sand
     type: NoiseMesh
-    planet: auvathia
+    planet: osaka
     divisions: 6
-    seed: 101
+    seed: 100
     radius: 1.2441
     color1: babca8
     color2: c6c282
@@ -39,10 +39,10 @@ mesh: [
     persistence: 0.8
   }
   {
-    //demetite
+    //copper
     type: NoiseMesh
-    planet: auvathia
-    seed: 69
+    planet: osaka
+    seed: 70
     divisions: 5
     color1: d5c995
     color2: 666359
@@ -53,9 +53,9 @@ mesh: [
     mag: 1
   }
   {
-    //barite
+    //coal
     type: NoiseMesh
-    planet: auvathia
+    planet: osaka
     divisions: 5
     seed: 19
     radius: 1.247
@@ -65,9 +65,9 @@ mesh: [
     persistence: 1.1
   }
   {
-    //radian barite
+    //thorium
     type: NoiseMesh
-    planet: auvathia
+    planet: osaka
     divisions: 6
     seed: 61
     radius: 1.248
@@ -79,7 +79,7 @@ mesh: [
   {
     //red sand
     type: NoiseMesh
-    planet: auvathia
+    planet: osaka
     divisions: 6
     seed: 17
     radius: 1.2514
@@ -92,7 +92,7 @@ mesh: [
 cloudMesh: [
  {
    type: HexSkyMesh
-   planet: auvathia
+   planet: osaka
    speed: 1.21
    radius: 0.1
    divisions: 6
@@ -104,7 +104,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: auvathia
+   planet: osaka
    speed: 1.01
    radius: 0.11
    divisions: 6
@@ -116,7 +116,7 @@ cloudMesh: [
   }
   {
    type: HexSkyMesh
-   planet: auvathia
+   planet: osaka
    speed: 0.891
    radius: 0.091
    divisions: 6
