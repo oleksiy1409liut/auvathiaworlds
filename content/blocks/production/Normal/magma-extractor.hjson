@@ -1,0 +1,29 @@
+{
+name: magma extractor
+description: cools down magma rock and separates it into slag, rock and mud
+type: GenericCrafter
+health: 150
+size: 3
+category: crafting
+research: magma-rock
+craftTime: 90
+craftEffect: reactorsmoke
+Output: {
+      Items: [
+          rock/2
+		  mud/1
+      ]
+      liquids: [
+          slag/0.3
+       ]
+}
+consumes: {
+items: [
+magma-rock/2
+]
+}
+
+requirements: [
+magma-rock/60
+]
+}
