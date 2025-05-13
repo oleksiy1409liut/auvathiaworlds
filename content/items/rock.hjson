@@ -1,0 +1,14 @@
+{
+type: material
+name: rock
+description: sturdy material used in basic logistics and extracting resources
+cost: 3.0
+color: ffffff
+research: magma-rock
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
