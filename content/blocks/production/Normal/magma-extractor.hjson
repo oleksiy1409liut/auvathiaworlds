@@ -8,6 +8,7 @@ category: crafting
 research: magma-rock
 craftTime: 90
 craftEffect: reactorsmoke
+outputLiquid: slag/0.2
 outputItems: [
 rock/2
 mud/1
