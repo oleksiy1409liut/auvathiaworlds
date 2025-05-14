@@ -1,4 +1,4 @@
-name: Resnium Drill
+name: magmatic extractor
 description: drill made of magma rock, uses the power of magma rock to drill items
 type: Drill
 hasLiquids: false
@@ -9,7 +9,7 @@ drillTime: 345
 drawMineItem: true
 alwaysUnlocked: true
 requirements: [
-  01a-01-item-resnium/10
+  magma-rock/10
 ]
 category: production
 research: {
