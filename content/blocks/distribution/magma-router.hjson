@@ -1,0 +1,13 @@
+type: Router 
+name: magma router
+health: 80
+itemCapacity: 6
+requirements: [
+  magma-rock/4
+  rock/1
+] 
+category: distribution
+research: {
+    parent: magma-duct
+},
+alwaysUnlocked: true
