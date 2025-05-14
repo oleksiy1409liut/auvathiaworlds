@@ -1,0 +1,16 @@
+type: Duct
+name: magmatic duct
+description: duct that uses heat of magma rock to transport resources, needs rock as reinforcement
+category: distribution
+alwaysUnlocked: true
+research: magma-rock
+researchCost: [
+  magma-rock/10
+  rock/5
+]
+speed: 12
+health: 25
+requirements: [
+  magma-rock/1
+  rock/1
+]
