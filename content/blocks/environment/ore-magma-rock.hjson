@@ -1,0 +1,3 @@
+type: OreBlock
+name: magma rock ore
+itemDrop: magma-rock
