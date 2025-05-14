@@ -1,0 +1,20 @@
+name: Resnium Drill
+description: drill made of magma rock, uses the power of magma rock to drill items
+type: Drill
+hasLiquids: false
+size: 2
+itemCapacity: 15
+tier: 1
+drillTime: 345
+drawMineItem: true
+alwaysUnlocked: true
+requirements: [
+  01a-01-item-resnium/10
+]
+category: production
+research: {
+  parent: magma-rock
+  requirements: [
+    magma-rock/50
+  ]
+}
