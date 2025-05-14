@@ -5,6 +5,7 @@ type: GenericCrafter
 health: 150
 size: 3
 category: crafting
+liquidCapacity: 90000
 research: magma-rock
 craftTime: 90
 craftEffect: reactorsmoke
