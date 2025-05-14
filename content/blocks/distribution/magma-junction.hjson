@@ -1,0 +1,12 @@
+type: Junction
+name: magma junction
+health: 80
+speed: 27
+capacity: 3
+requirements: [
+  magma-rock/3
+  rock/1
+] 
+category: distribution
+research: magma-duct
+alwaysUnlocked: true
