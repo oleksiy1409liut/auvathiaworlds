@@ -1,0 +1,17 @@
+type: Wall
+name: large magma wall
+description: a protective wall made out of magma rock, big boy
+size: 2
+health: 450
+squareSprite: false
+requirements: [
+  magma-rock/24
+]
+research: {
+  parent: magma-wall
+  requirements: [
+    magma-rock/600
+  ]
+}
+
+category: defense
