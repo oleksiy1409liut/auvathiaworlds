@@ -1,0 +1,15 @@
+ "type": "ItemBridge",
+itemCapacity: 2
+  "name": "magma bridge",
+  "description": "used for transferring items underground (yes cool idea)",
+  "health": 80,
+  "range": 8,
+  "transportTime": 16,
+  "hasPower": false,
+requirements: [
+magma-rock/5
+rock/2
+] 
+category: distribution
+research: magma-duct
+alwaysUnlocked: true
