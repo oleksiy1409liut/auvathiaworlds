@@ -1,0 +1,26 @@
+{
+name: steam boiler
+description: sucks out all of magma rock magma and temperature with mud for water catalyst for producing energy, has rock as byproduct
+type: GenericCrafter
+health: 150
+size: 2
+category: crafting
+research: magma-rock
+craftTime: 90
+craftEffect: reactorsmoke
+outputLiquid: energy/1
+outputItem: rock/2
+
+consumes: {
+items: [
+magma-rock/2
+mud/1
+]
+}
+
+requirements: [
+magma-rock/60
+rock/80
+mud/5
+]
+}
