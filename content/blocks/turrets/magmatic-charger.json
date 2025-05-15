@@ -1,9 +1,9 @@
 type: ItemTurret
-localizedName: Rockit
-description: duo copy go shoot shoot and boom boom at ground and air targets.
+localizedName: magmatic charger
+description: fires small missiles/bullets at enemy units, weak in one but strong in squads
 targetAir: true
 targetGround: true
-health: 55
+health: 300
 size: 2
 ammoUseMultiplier: 4
 reload: 25
@@ -28,7 +28,7 @@ ammoTypes: {
   magma-rock: {
     speed: 4
 	lifetime: 55
-	damage: 14
+	damage: 19
     width: 5
 	height: 5
     shootEffect: shootBig
@@ -44,7 +44,7 @@ ammoTypes: {
   rock: {
     speed: 5
 	lifetime: 55
-	damage: 20
+	damage: 25
     width: 5
 	height: 5
     frontColor: 7b7b7b
@@ -57,10 +57,10 @@ ammoTypes: {
   }
 }
 requirements: [
-  magma-rock/70
-  rock/20
+  magma-rock/80
+  rock/30
 ]
 category: turret
-research: magma-extractor
+research: rock
 shootSound: shootSnap
 researchCostMultiplier: 0.5
