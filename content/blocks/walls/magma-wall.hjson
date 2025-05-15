@@ -1,1 +1,17 @@
+type: Wall
+name: mgma wall
+description: a protective wall made out of magma rock
+size: 1
+health: 450
+squareSprite: false
+requirements: [
+  magma-rock/6
+]
+research: {
+  parent: magma-rock
+  requirements: [
+    magma-rock/150
+  ]
+}
 
+category: defense
