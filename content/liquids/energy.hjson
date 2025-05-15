@@ -1,0 +1,14 @@
+{
+name: energy
+description: used on different planets as power, produced in many ways, very unstable, VERY FUCKING UNSTABLE
+type: liquid
+temperature: 100
+viscosity: 0
+flammability: 0
+explosiveness: 10
+heatCapacity: 100
+color: ffffff
+lightColor: ffffff
+research: core-sun
+gas: true
+}
