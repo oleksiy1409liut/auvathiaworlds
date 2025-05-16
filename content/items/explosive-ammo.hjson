@@ -1,0 +1,14 @@
+{
+type: material
+name: explosive ammo
+description: loaded bullet of incendiary materials, can pierce enemies and lodge into them, bursting into pieces and freeing the lava melting them from insides
+cost: 3.0
+color: ff9c5a
+research: energy
+
+explosiveness: 1
+flammability: 5
+radioactivity: 0
+charge: 4
+hardness: 0
+}
