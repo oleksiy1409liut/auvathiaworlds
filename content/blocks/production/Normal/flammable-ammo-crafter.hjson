@@ -1,0 +1,28 @@
+{
+name: flammable ammo crafter
+description: assembles simple flammable ammo on osaka, uses slag to mold the rock into bullet shape
+type: GenericCrafter
+health: 150
+size: 3
+category: crafting
+research: energy
+craftTime: 90
+craftEffect: reactorsmoke
+outputItem: flammable-ammo/1
+
+consumes: {
+items: [
+magma-rock/2
+rock/3
+]
+liquids: [
+slag/0.3
+energy/0.5
+]
+}
+
+requirements: [
+magma-rock/25
+rock/55
+]
+}
