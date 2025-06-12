@@ -6,6 +6,24 @@ health: 200
 size: 2
 category: crafting
 research: graphite
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -fan
+	  rotateSpeed: 15
+	  spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
 
 craftTime: 80
 craftEffect: reactorsmoke
