@@ -15,7 +15,7 @@ drawer: {
     {  
 	  type: DrawRegion
 	  suffix: -fan
-	  rotateSpeed: 5
+	  rotateSpeed: 7.5
 	  spinSprite: true
     }
     {
