@@ -44,16 +44,16 @@ drawer: {
         items: [copper/2]
         }
     output:{
-        items: [copper-dust/2]
+        items: [auvathiaworlds-copper-dust/2]
         }
     craftTime: 60
     }
     {
     input: {
-        items: [tin/2]
+        items: [auvathiaworlds-tin/2]
         }
     output:{
-        items: [tin-dust/2]
+        items: [auvathiaworlds-tin-dust/2]
         }
     craftTime: 60
     }
@@ -62,7 +62,7 @@ drawer: {
         items: [coal/2]
         }
     output:{
-        items: [carbon-dust/2]
+        items: [auvathiaworlds-carbon-dust/2]
         }
     craftTime: 60
     }
