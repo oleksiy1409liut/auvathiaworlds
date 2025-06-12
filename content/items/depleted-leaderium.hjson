@@ -1,0 +1,14 @@
+{
+type: material
+name: depleted leaderium
+description: made from nuclear synthesis in leaderium reactors, can be charged into normal leaderium and used
+cost: 3.0
+color: ffffff
+research: leaderium-reactor
+
+explosiveness: 1
+flammability: 0
+radioactivity: 4
+charge: 0
+hardness: 2
+}
