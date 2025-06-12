@@ -9,6 +9,7 @@ research: LV-circuit-chip
 craftTime: 210
 craftEffect: reactorsmoke
 outputItem: depleted-leaderium/2
+outputLiquid: energy/10
 
 consumes: {
 items: [
