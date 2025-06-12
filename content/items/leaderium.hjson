@@ -1,0 +1,14 @@
+{
+type: material
+name: leaderium
+description: charged version of leaderium, highly unstable bt can be used in next nuclear power research (and more power)
+cost: 3.0
+color: ffffff
+research: depleted-leaderium
+
+explosiveness: 5
+flammability: 1
+radioactivity: 30
+charge: 8
+hardness: 2
+}
