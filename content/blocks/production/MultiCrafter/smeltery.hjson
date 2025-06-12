@@ -19,7 +19,7 @@
     }
     {
       type: DrawLiquidTile
-      drawLiquid: auvathiaworlds-molten-material
+      drawLiquid: molten-material
       alpha: 1
     }
     {
