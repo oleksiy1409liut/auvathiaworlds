@@ -10,6 +10,34 @@ craftTime: 90
 craftEffect: reactorsmoke
 outputItem: flammable-ammo/1
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      alpha: 0.1
+    }
+    {
+      type: DrawDefault
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -fan
+	  rotateSpeed: 15
+	  spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
 consumes: {
 items: [
 magma-rock/2
