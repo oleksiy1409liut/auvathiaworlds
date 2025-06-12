@@ -1,0 +1,32 @@
+{
+name: leaderium reactor
+description: can be called the LV research reactor, used in producing lots of energy that can be enough for all of LV age and for production of leaderium, consumes copper and leadwith cryofluid coolant to prduce depleted leaderium
+type: GenericCrafter
+health: 150
+size: 4
+category: crafting
+research: LV-circuit-chip
+craftTime: 210
+craftEffect: reactorsmoke
+outputItem: depleted-leaderium/2
+
+consumes: {
+items: [
+lead/2
+copper/5
+]
+liquids: [
+cryofluid/2
+]
+}
+
+requirements: [
+titanium/25
+silicon/55
+LV-circuit-chip/10
+metaglass/15
+copper/200
+lead/240
+graphite/35
+]
+}
