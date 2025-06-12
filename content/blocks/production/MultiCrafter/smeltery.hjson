@@ -1,75 +1,72 @@
 {
-    "name": "smeltery",
-	"description": "smelts dusts with fuel into materials!",
-    "type": "multicraft.MultiCrafter",
-    "buildCostMultiplier": 0.1,
-    "category": "crafting",
-    "research": "graphite", 
-    "requirements": [
-      "copper/80",
-      "lead/70",
-	  "graphite/20",
-    ],
-    "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
+    name: smeltery
+	description: smelts dusts with fuel into materials!
+    type: multicraft.MultiCrafter
+    buildCostMultiplier: 0.1
+    category: crafting
+    research: graphite
+    requirements: [
+      copper/8,
+      lead/70
+	  graphite/20
+    ]
+    drawer: {
+    type: DrawMulti
+    drawers: [
     {
-      "type": "DrawRegion",
-      "suffix": "-bottom",
+      type: DrawRegion
+      suffix: -bottom
     }
     {
-      "type": "DrawLiquidTile",
-      "drawLiquid": "auvathiaworlds-molten-material",
-      "alpha": 0.7,
+      type: DrawLiquidTile
+      drawLiquid: auvathiaworlds-molten-material
+      alpha: 1
     }
     {
-      "type": "DrawDefault",
+      type: DrawDefault
     }
     {
-      "type": "DrawDefault",
-    }
-    {
-      "type": "DrawFlame",
-      "suffix": "-top",
+      type: DrawFlame
+      suffix: -top
     }
     ]
     }
 
 
-	"size": 3,
-    "hasLiquids": true,
-    "hasItems": true,
-    "craftEffect": "none",
-    "itemCapacity": 30,
-    "liquidCapacity": 90,
-	"recipes": [
+	size: 3
+    hasLiquids: true
+    hasItems: true
+    craftEffect: none
+    itemCapacity: 30
+    liquidCapacity: 90
+	recipes: [
     {
-    "input": {
-        "items": ["auvathiaworlds-carbon-dust/1","auvathiaworlds-silicon-dust/1",]
-        },
-    "output":{
-        "items": ["silicon/4","auvathiaworlds-ashes/4",]
-        },
-    "craftTime": 60
-    },
+    input: {
+        items: [auvathiaworlds-carbon-dust/1, auvathiaworlds-silicon-dust/1]
+        }
+    output: {
+        items: [silicon/4, auvathiaworlds-ashes/4]
+        }
+    craftTime: 60
+    }
     {
-    "input": {
-        "items": ["auvathiaworlds-glass-dust/2","coal/1",]
-        },
-    "output":{
-        "items": ["auvathiaworlds-hot-glass/4","auvathiaworlds-ashes/1",]
-        },
-    "craftTime": 60
-    },
+    input: {
+        items: [auvathiaworlds-glass-dust/2, coal/1]
+        }
+    output:{
+        items: [auvathiaworlds-hot-glass/4, auvathiaworlds-ashes/1]
+        }
+    craftTime: 60
+    }
     {
-    "input": {
-        "items": ["auvathiaworlds-bronze-dust/2","coal/1",]
-        },
-    "output":{
-        "items": ["auvathiaworlds-bronze/2",]
-        "fluids": ["auvathiaworlds-molten-material/1",]
-		},
-    "craftTime": 60
-    },
+    input: {
+        items: [auvathiaworlds-bronze-dust/2, coal/1]
+        }
+    output: {
+        items: [auvathiaworlds-bronze/2]
+        fluids": [auvathiaworlds-molten-material/1]
+		}
+    craftTime: 60
+    }
 ]
 }
