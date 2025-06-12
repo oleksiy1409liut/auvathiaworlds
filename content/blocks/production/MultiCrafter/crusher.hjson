@@ -15,29 +15,6 @@
     craftEffect: none
     itemCapacity: 30
 
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    {  
-	  type: DrawRegion
-	  suffix: -wallright
-	  moveX: -2
-    }
-    {  
-	  type: DrawRegion
-	  suffix: -wallleft
-	  moveX: +2
-    }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
-  ]
-}
-
     recipes: [
     {
     input: {
