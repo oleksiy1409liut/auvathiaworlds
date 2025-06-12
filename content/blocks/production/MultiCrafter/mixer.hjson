@@ -5,20 +5,24 @@
     buildCostMultiplier: 0.1
     category: crafting
     research: graphite 
-    drawer: {
-      type: DrawMulti
-      drawers: [
-      {
-	   type: DrawDefault
-	  }
-	  {  
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {  
 	  type: DrawRegion
 	  suffix: -fan
-	  rotateSpeed: 1
+	  rotateSpeed: 2
 	  spinSprite: true
-      }
-     ]
-    }     
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}    
 	requirements: [
       copper/80
       lead/70
