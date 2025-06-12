@@ -4,7 +4,7 @@
     type: multicraft.MultiCrafter
     buildCostMultiplier: 0.1
     category: crafting
-    research": copper
+    research: copper
     requirements: [
       copper/80
       lead/70
@@ -19,22 +19,17 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: molten-material
-      alpha: 0.1
-    }
-    {
       type: DrawDefault
     }
     {  
 	  type: DrawRegion
-	  suffix: -fan
-	  rotateSpeed: 15
-	  spinSprite: true
+	  suffix: -wallright
+	  moveX: -2
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -wallleft
+	  moveX: +2
     }
     {
       type: DrawRegion
