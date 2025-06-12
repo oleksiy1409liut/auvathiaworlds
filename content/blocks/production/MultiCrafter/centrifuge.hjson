@@ -28,6 +28,10 @@ drawer: {
 	  rotateSpeed: 15
 	  spinSprite: true
     }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
   ]
 }
 
