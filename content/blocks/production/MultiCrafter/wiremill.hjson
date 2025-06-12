@@ -10,6 +10,7 @@
       lead/70
 	  graphite/20
 	  tin/10
+]
 
 drawer: {
   type: DrawMulti
@@ -30,7 +31,6 @@ drawer: {
   ]
 }
 
-    ]
     size: 3
     hasLiquids: false
     hasItems: true
