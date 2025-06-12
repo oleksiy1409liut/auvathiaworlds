@@ -1,30 +1,50 @@
 {
-    "name": "wiremill",
-	"description": "mills metals into wires",
-    "type": "multicraft.MultiCrafter",
-    "buildCostMultiplier": 0.1,
-    "category": "crafting",
-    "research": "tin", 
-    "requirements": [
-      "copper/80",
-      "lead/70",
-	  "graphite/20",
-	  "tin/10",
-    ],
-    "size": 3,
-    "hasLiquids": false,
-    "hasItems": true,
-    "craftEffect": "none",
-    "itemCapacity": 30,
-    "recipes": [
+    name: wiremill
+	description: mills metals into wires
+    type: multicraft.MultiCrafter
+    buildCostMultiplier: 0.1
+    category: crafting
+    research: tin
+    requirements: [
+      copper/80
+      lead/70
+	  graphite/20
+	  tin/10
+
+drawer: {
+  type: DrawMulti
+  drawers: [
     {
-    "input": {
-        "items": ["auvathiaworlds-tin/3",]
-        },
-    "output":{
-        "items": ["auvathiaworlds-tin-coil/1"]
-        },
-    "craftTime": 60
-    },
+      type: DrawDefault
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -fan
+	  rotateSpeed: 10
+	  spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
+    ]
+    size: 3
+    hasLiquids: false
+    hasItems: true
+    craftEffect: none
+    itemCapacity: 30
+    recipes: [
+    {
+    input: {
+        items: [auvathiaworlds-tin/3]
+        }
+    output:{
+        items: [auvathiaworlds-tin-coil/1]
+        }
+    craftTime: 60
+    }
 ]
 }
