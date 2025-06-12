@@ -7,6 +7,19 @@ size: 3
 category: crafting
 research: graphite
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
 craftTime: 80
 craftEffect: reactorsmoke
 outputItems: [
