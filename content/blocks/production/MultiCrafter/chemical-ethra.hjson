@@ -6,25 +6,6 @@ health: 350
 size: 3
 category: crafting
 research: graphite
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawGlowRegion
-      suffix: -glow
-      glowScale: 25
-	  glowIntensity: 4.5
-	}
-    {
-      type: DrawRegion
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-} 
-
 requirements: [
 tin/125
 copper/95
