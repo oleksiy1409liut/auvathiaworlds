@@ -1,5 +1,5 @@
 type: Wall
-name: mgma wall
+name: magma wall
 description: a protective wall made out of magma rock
 size: 1
 health: 450
