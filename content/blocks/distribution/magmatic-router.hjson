@@ -8,6 +8,6 @@ requirements: [
 ] 
 category: distribution
 research: {
-    parent: magma-duct
-},
+    parent: magmatic-duct
+}
 alwaysUnlocked: true
