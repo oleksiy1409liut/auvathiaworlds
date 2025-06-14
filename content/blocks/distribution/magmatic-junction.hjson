@@ -1,5 +1,5 @@
 type: Junction
-name: magma junction
+name: magmatic junction
 health: 80
 speed: 27
 capacity: 3
@@ -8,5 +8,5 @@ requirements: [
   rock/1
 ] 
 category: distribution
-research: magma-duct
+research: magmatic-duct
 alwaysUnlocked: true
