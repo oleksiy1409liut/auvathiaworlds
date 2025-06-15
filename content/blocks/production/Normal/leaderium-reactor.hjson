@@ -25,7 +25,7 @@ drawer: {
     {  
 	  type: DrawRegion
 	  suffix: -fan
-	  rotateSpeed: 8.5
+	  rotateSpeed: 7
 	  spinSprite: true
     }
     {
@@ -35,7 +35,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: cryofluid
-      alpha: 0.7
+      alpha: 0.9
       padding: 1.5
     }
     {
