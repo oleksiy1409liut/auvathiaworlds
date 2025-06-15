@@ -11,6 +11,28 @@ craftEffect: reactorsmoke
 outputItem: depleted-leaderium/2
 outputLiquid: energy/10
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      alpha: 1
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
 consumes: {
 items: [
 lead/2
