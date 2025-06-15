@@ -22,6 +22,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: cryofluid
       alpha: 1
+      suffix: -bottom
     }
     {
       type: DrawDefault
