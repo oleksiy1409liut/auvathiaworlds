@@ -3,6 +3,7 @@ name: leaderium reactor
 description: can be called the LV research reactor, used in producing lots of energy that can be enough for all of LV age and for production of leaderium, consumes copper and leadwith cryofluid coolant to prduce depleted leaderium
 type: GenericCrafter
 health: 150
+squareSprite: false
 size: 5
 category: crafting
 research: LV-circuit-chip
@@ -22,7 +23,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: cryofluid
       alpha: 1
-      suffix: -bottom
+      padding: 1.5
     }
     {
       type: DrawDefault
