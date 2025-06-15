@@ -47,6 +47,8 @@ craftEffect: {
     lengthOffset: 3
     effect: {
       type: ParticleEffect
+    x: 3
+    y: -2
       particles: 3
       length: 90
       lifetime: 420
@@ -63,6 +65,8 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+    x: 3
+    y: -2
       particles: 3
       length: 90
       lifetime: 420
