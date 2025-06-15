@@ -32,22 +32,6 @@ drawer: {
       type: DrawRegion
       suffix: -top
     }
-    {
-      type: DrawFlame
-      suffix: -pipe1
-    }
-    {
-      type: DrawFlame
-      suffix: -pipe2
-    }
-    {
-      type: DrawFlame
-      suffix: -pipe3
-    }
-    {
-      type: DrawFlame
-      suffix: -pipe4
-    }
   ]
 }
 
