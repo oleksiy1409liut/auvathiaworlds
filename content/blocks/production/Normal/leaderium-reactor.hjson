@@ -51,6 +51,49 @@ drawer: {
   ]
 }
 
+craftEffect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: radialEffect
+    amonunt: 5
+    rotationSpacing: 72
+    lengthOffset: 3
+    effect: {
+      type: ParticleEffect
+      particles: 3
+      length: 90
+      lifetime: 420
+      sizeFrom: 1
+      sizeTo: 5
+      cone: 4
+      baseRotation: 73
+      useRotation:false
+      interp: pow3Out
+      colorFrom: 605050
+      colorTo: 60505000
+      layer:100.3
+      }
+    }
+    {
+      type: ParticleEffect
+      particles: 3
+      length: 90
+      lifetime: 420
+      sizeFrom: 1
+      sizeTo: 5
+      cone: 4
+      baseRotation: 73
+      useRotation:false
+      interp: pow3Out
+      colorFrom: 605050
+      colorTo: 60505000
+      layer:100.3
+      startDelay: 20
+    }
+  ]
+}
+
 consumes: {
 items: [
 lead/2
