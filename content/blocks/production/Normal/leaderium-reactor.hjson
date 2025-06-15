@@ -56,6 +56,8 @@ craftEffect: {
     effects: [
     {
     type: radialEffect
+    x: 3
+    y: -2
     amonunt: 5
     rotationSpacing: 72
     lengthOffset: 3
