@@ -28,6 +28,12 @@ drawer: {
     {
       type: DrawDefault
     }
+    {  
+	  type: DrawRegion
+	  suffix: -fan
+	  rotateSpeed: 8.5
+	  spinSprite: true
+    }
     {
       type: DrawRegion
       suffix: -top
