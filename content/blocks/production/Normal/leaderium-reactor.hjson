@@ -20,12 +20,6 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: cryofluid
-      alpha: 1
-      padding: 1.5
-    }
-    {
       type: DrawDefault
     }
     {  
@@ -33,6 +27,16 @@ drawer: {
 	  suffix: -fan
 	  rotateSpeed: 8.5
 	  spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -pipes
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      alpha: 1
+      padding: 1.5
     }
     {
       type: DrawRegion
