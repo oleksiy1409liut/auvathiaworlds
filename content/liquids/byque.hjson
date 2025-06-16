@@ -7,8 +7,8 @@ viscosity: 1
 flammability: 2
 explosiveness: 2
 heatCapacity: 5
-color: 93789C
-lightColor: EAB678
+color: 1f1710
+lightColor: 3b2d28
 research: molten-material
 gas: false
 }
