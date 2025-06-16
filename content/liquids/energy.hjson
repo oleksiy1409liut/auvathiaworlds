@@ -7,8 +7,8 @@ viscosity: 0
 flammability: 0
 explosiveness: 10
 heatCapacity: 100
-color: ffffff
-lightColor: ffffff
+color: B5B2A0
+lightColor: FFFCEC
 research: core-sun
 gas: true
 }
