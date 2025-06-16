@@ -7,8 +7,8 @@ viscosity: 0.90
 flammability: 2
 explosiveness: 0
 heatCapacity: 1
-color: 9e78dc
-lightColor: ffcac208
+color: B5B7D1
+lightColor: ECEEFF
 research: water
 gas: true
 }
