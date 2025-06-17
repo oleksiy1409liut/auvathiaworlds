@@ -15,7 +15,7 @@
   "hasLiquids": true,
   "hasPower": false,
   "consumes": {
-    "liquid": energy/40
+    "liquid": energy/16
   },
   "rotateSpeed": 0,
   "shootCone": 360,
