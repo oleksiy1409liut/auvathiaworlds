@@ -8,7 +8,7 @@ category: crafting
 research: LV-circuit-chip
 craftTime: 90
 craftEffect: reactorsmoke
-outputLiquid: power/5
+outputLiquid: energy/5
 
 consumes: {
 liquids: [
