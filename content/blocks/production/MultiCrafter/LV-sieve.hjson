@@ -1,0 +1,30 @@
+{
+name: LV electrical sieve
+description: uses fast separating technology to sieve items into materials, WARNING: give out MANY byproducts which can be a pain in the boosters
+type: multicraft.MultiCrafter
+health: 350
+size: 3
+category: crafting
+research: power
+requirements: [
+tin/30
+copper/120
+bronze/67
+silicon/65
+titanium/20
+LV-circuit-chip
+]
+
+recipes: [
+    {
+	input: {
+     items: [sand/10,scrap/10]
+       liquids: [power/2]
+	}    
+	output: {
+    items: [copper/3,lead/3,tin/2,quartz-dust/4,gravel-dust/2,titanium/1,rock/2]
+	}
+	craftTime: 300
+	}
+]	
+}
