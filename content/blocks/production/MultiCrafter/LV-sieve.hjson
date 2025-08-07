@@ -12,17 +12,17 @@ copper/120
 bronze/67
 silicon/65
 titanium/20
-LV-circuit-chip
+LV-circuit-chip/10
 ]
 
 recipes: [
     {
 	input: {
      items: [sand/10,scrap/10]
-       liquids: [power/2]
+       liquids: [auvathiaworlds-power/2]
 	}    
 	output: {
-    items: [copper/3,lead/3,tin/2,quartz-dust/4,gravel-dust/2,titanium/1,rock/2]
+    items: [copper/3,lead/3,auvathiaworlds-tin/2,auvathiaworlds-quartz-dust/4,auvathiaworlds-gravel-dust/2,titanium/1,auvathiaworlds-rock/2]
 	}
 	craftTime: 300
 	}
