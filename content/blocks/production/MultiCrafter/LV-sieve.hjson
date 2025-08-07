@@ -19,7 +19,7 @@ recipes: [
     {
 	input: {
      items: [sand/10,scrap/10]
-       liquids: [power/2]
+       liquids: [auvathiaworlds-power/2]
 	}    
 	output: {
     items: [copper/3,lead/3,auvathiaworlds-tin/2,auvathiaworlds-quartz-dust/4,auvathiaworlds-gravel-dust/2,titanium/1,auvathiaworlds-rock/2]
