@@ -8,7 +8,7 @@ were hallucinating you to give us a star, please if you instal this mod give us 
 '''
 author: "Auvathia team (Me,Angy Cat and some people from mindustry server)"
 minGameVersion: 146
-version: "alpha v0.1.5"
-displayName: "Osakan Worlds :D"
-subtitle: "Warning! The mod is very experimental so change will happen!(And the occasional crashing)"
+version: "alpha v0.1.6"
+displayName: "Osakan Worlds"
+subtitle: "im commiting warcrimes daily"
 dependencies: ["multi-crafter"]
