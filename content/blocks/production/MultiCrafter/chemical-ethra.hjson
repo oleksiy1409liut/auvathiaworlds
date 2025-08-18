@@ -17,11 +17,11 @@ titanium/20
 recipes: [
     {
 	input: {
-	 fluids: [auvathiaworlds-molten-material/1,water/2]
+	 fluids: [auvathiaworlds-energy/1,auvathiaworlds-molten-material/1,water/2]
      items: [titanium/6]
 	}    
 	output: {
-	 fluids: [cryofluid/1]
+	 fluids: [cryofluid/1.5]
 	 heat: 1
 	}
 	craftTime: 175
