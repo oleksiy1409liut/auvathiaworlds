@@ -1,0 +1,14 @@
+{
+type: material
+name: bauxite dust
+description: obtained by macerating bauxite ore, probably useless for now
+cost: 3.0
+color: ffffff
+research: bauxite-ore
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
