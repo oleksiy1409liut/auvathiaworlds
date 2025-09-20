@@ -1,0 +1,68 @@
+{
+    name: LV smeltery
+	description: smelts more dusts with energy into more complex materials!, has batch crafting technology, also can smelt alloys
+    type: multicraft.MultiCrafter
+    buildCostMultiplier: 0.1
+    category: crafting
+    research: LV-circuit-chip
+    requirements: [
+      copper/210,
+      lead/170
+	  graphite/60
+    silicon/65
+    LV-circuit-chip/15
+    titanium/50
+    bronze/40
+    ]
+	size: 3
+    hasLiquids: true
+    hasItems: true
+    craftEffect: none
+    itemCapacity: 30
+    liquidCapacity: 120
+	recipes: [
+    {
+    input: {
+        items: [auvathiaworlds-carbon-dust/3,auvathiaworlds-silicon-dust/2]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output: {
+        items: [silicon/8]
+        }
+    craftTime: 120
+    }
+    {
+    input: {
+        items: [auvathiaworlds-glass-dust/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [auvathiaworlds-hot-glass/8]
+        }
+    craftTime: 120
+    }
+    {
+    input: {
+        items: [auvathiaworlds-bronze-dust/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output: {
+        items: [auvathiaworlds-bronze/4]
+        fluids: [auvathiaworlds-molten-material/2]
+		}
+    craftTime: 120
+    }
+    {
+    
+    input: {
+        items: [auvathiaworlds-nickel-dust/4,auvathiaworlds-copper-dust/4,auvathiaworlds-tin/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output: {
+        items: [auvathiaworlds-cupronickel-ingot/4]
+        fluids: [auvathiaworlds-molten-material/2]
+		}
+    craftTime: 120
+    }
+]
+}
