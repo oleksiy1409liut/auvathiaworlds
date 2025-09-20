@@ -40,10 +40,10 @@
     },
   {
     "input": {
-        "items": ["auvathiaworlds-tin/10","auvathiaworlds-cupronickel-ingot/10",]
+        "items": ["auvathiaworlds-tin/10","auvathiaworlds-cupronickel-ingot/10","auvathiaworlds-bronze/10",]
         },
     "output":{
-        "items": ["auvathiaworlds-cuprnickel-coil/1",]
+        "items": ["auvathiaworlds-cupronickel-coil/2",]
         },
     "craftTime": 360
    },
