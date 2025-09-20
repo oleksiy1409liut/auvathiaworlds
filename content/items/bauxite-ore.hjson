@@ -1,0 +1,14 @@
+{
+type: material
+name: bauxite ore
+description: found commonly in rock biomes, needs to be proccesed for further usage
+cost: 3.0
+color: ffffff
+research: titanium
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
