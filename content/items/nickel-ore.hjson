@@ -1,0 +1,14 @@
+{
+type: material
+name: nickel ore
+description: commonly found in caves but rarely can be found near mountains
+cost: 3.0
+color: ffffff
+research: titanium
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
