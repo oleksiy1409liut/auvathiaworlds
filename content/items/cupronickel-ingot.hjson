@@ -1,0 +1,14 @@
+{
+type: material
+name: cupronickel alloy ingot
+description: obtained by smelting copper and nickel dust in an alloy smelter, used in coils and maybe other stuff
+cost: 3.0
+color: ffffff
+research: nickel-dust
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
