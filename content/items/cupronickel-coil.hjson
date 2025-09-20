@@ -1,0 +1,14 @@
+{
+type: material
+name: cupronickel coil
+description: weakest coil for the EBF, still useful tho
+cost: 3.0
+color: ffffff
+research: cupronickel-ingot
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
