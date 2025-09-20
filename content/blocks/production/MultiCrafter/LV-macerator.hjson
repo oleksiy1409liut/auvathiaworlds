@@ -14,7 +14,7 @@
       graphite/20
     ]
     size: 5
-    hasLiquids: false
+    hasLiquids: true
     hasItems: true
     craftEffect: none
     itemCapacity: 30
