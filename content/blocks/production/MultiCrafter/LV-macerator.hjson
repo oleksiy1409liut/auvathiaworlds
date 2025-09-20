@@ -1,0 +1,64 @@
+{
+    name: LV macerator
+	description: used to macerate different ores and other stuff into dusts, sometimes has byproducts, also consumes energy and can process more ores at the same time at the cost of longer time needed (essentialy doubles them)
+    type: multicraft.MultiCrafter
+    buildCostMultiplier: 0.1
+    category: crafting
+    research: titanium
+    requirements: [
+      copper/120
+      lead/130
+      LV-circuit-chip/15
+      bronze/60
+      silicon/50
+      graphite/20
+    ]
+    size: 5
+    hasLiquids: false
+    hasItems: true
+    craftEffect: none
+    itemCapacity: 30
+
+    recipes: [
+    {
+    input: {
+        items: [copper/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [auvathiaworlds-copper-dust/8]
+        }
+    craftTime: 120
+    }
+    {
+    input: {
+        items: [auvathiaworlds-tin/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [auvathiaworlds-tin-dust/8]
+        }
+    craftTime: 120
+    }
+        {
+    input: {
+        items: [coal/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [auvathiaworlds-carbon-dust/8]
+        }
+    craftTime: 120
+    }
+    {
+    input: {
+        items: [auvathiaworlds-bauxite-ore/6]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [auvathiaworlds-aluminium-dust/1,auvathiaworlds-bauxite-dust/7]
+        }
+    craftTime: 120
+    }
+]
+}
