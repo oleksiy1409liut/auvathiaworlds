@@ -1,0 +1,14 @@
+{
+type: material
+name: nickel dust
+description: obtained by macerating nickel ore, used in cupronickel and maybe something else
+cost: 3.0
+color: ffffff
+research: nickel-ore
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
