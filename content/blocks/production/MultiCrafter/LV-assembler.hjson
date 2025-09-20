@@ -1,0 +1,51 @@
+{
+    "name": "LV assembler",
+	"description": "assembles more complex items butith the use of power, still uses batch crafting technology",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "LV-circuit-chip", 
+    "requirements": [
+      "copper/210",
+      "lead/200",
+	  "graphite/20",
+	  "tin/50",
+	  "silicon/60",
+    "LV-circuit-chip/15",
+    "titanium/25",
+    ],
+    "size": 3,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["auvathiaworlds-copper-electrode/24","auvathiaworlds-tin-coil/18","auvathiaworlds-glass-tube/6",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-electrode-tube/9"]
+        },
+    "craftTime": 240
+    },
+	{
+    "input": {
+        "items": ["auvathiaworlds-copper-electrode/16","auvathiaworlds-tin-plate/18","auvathiaworlds-electrode-tube/18",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-LV-circuit-chip/12",]
+        },
+    "craftTime": 240
+    },
+  {
+    "input": {
+        "items": ["auvathiaworlds-tin/10","auvathiaworlds-cupronickel-ingot/10",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-cuprnickel-coil/1",]
+        },
+    "craftTime": 360
+   },
+]
+}
