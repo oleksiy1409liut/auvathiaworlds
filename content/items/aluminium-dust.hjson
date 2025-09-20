@@ -1,0 +1,14 @@
+{
+type: material
+name: aluminium dust
+description: obtained as a byproduct of macerating bauxite ore, needs to be smelted or melted for proper use
+cost: 3.0
+color: ffffff
+research: bauxite-ore
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
