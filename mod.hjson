@@ -4,11 +4,11 @@ description:
 the osakan worlds project will focus on adding a new planet(maybe) cluster that can connect with each other (first planets name is osaka)
   Enjoy!
    also is the place of containment of some of my ideas like a gregtech-styled mod, so stuff inside the mod can clash
-were hallucinating you to give us a star, please if you instal this mod give us a star on github so we know you enjoy the torture of whatever this is
+give this mod a star if you like it, DM theavatar_of_emptiness if you want to contribute to the mod with ideas, sprites or other stuff or if you want to join our discord server
 '''
-author: "Auvathia team (Me,Angy Cat and some people from mindustry server)"
+author: "Auvathia team (Me,Bread and some people from mindustry server)"
 minGameVersion: 146
-version: "alpha v0.1.6"
+version: "alpha v0.1.8"
 displayName: "Osakan Worlds"
-subtitle: "im commiting warcrimes daily"
+subtitle: "now with 10% more pain!"
 dependencies: ["multi-crafter"]
