@@ -19,10 +19,12 @@
     "hasItems": true,
     "craftEffect": "none",
     "itemCapacity": 30,
+    "liquidCapacity": 120,
     "recipes": [
     {
     "input": {
         "items": ["auvathiaworlds-copper-electrode/24","auvathiaworlds-tin-coil/18","auvathiaworlds-glass-tube/6",]
+        "fluids": ["auvathiaworlds-energy/1.5",]
         },
     "output":{
         "items": ["auvathiaworlds-electrode-tube/9"]
@@ -32,6 +34,7 @@
 	{
     "input": {
         "items": ["auvathiaworlds-copper-electrode/16","auvathiaworlds-tin-plate/18","auvathiaworlds-electrode-tube/18",]
+        "fluids": ["auvathiaworlds-energy/1.5",]
         },
     "output":{
         "items": ["auvathiaworlds-LV-circuit-chip/12",]
@@ -41,6 +44,7 @@
   {
     "input": {
         "items": ["auvathiaworlds-tin/10","auvathiaworlds-cupronickel-ingot/10","auvathiaworlds-bronze/10",]
+        "fluids": ["auvathiaworlds-energy/2",]
         },
     "output":{
         "items": ["auvathiaworlds-cupronickel-coil/2",]
