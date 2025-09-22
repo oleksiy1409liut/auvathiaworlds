@@ -25,7 +25,7 @@
         items: [auvathiaworlds-tin/6]
         fluids: [auvathiaworlds-energy/1]
         }
-    output:{
+    output: {
         items: [auvathiaworlds-tin-coil/3]
         }
     craftTime: 120
@@ -34,7 +34,7 @@
         items: [auvathiaworlds-bronze/6]
         fluids: [auvathiaworlds-energy/2]
         }
-    output:{
+    output: {
         items: [auvathiaworlds-bronze-coil/2]
         }
     craftTime: 120
