@@ -1,0 +1,43 @@
+{
+    name: LV wiremill
+	description: mills metals into wires more effectively by using power, more output guaranteed and can mill more complex stuff
+    type: multicraft.MultiCrafter
+    buildCostMultiplier: 0.1
+    category: crafting
+    research: LV-circuit-chip
+    requirements: [
+      copper/150
+      lead/130
+	  graphite/50
+	  tin/70
+    LV-circuit-chip/10
+    titanium/30
+    silicon/50
+]
+    size: 3
+    hasLiquids: true
+    hasItems: true
+    craftEffect: none
+    itemCapacity: 30
+    recipes: [
+    {
+    input: {
+        items: [auvathiaworlds-tin/6]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [auvathiaworlds-tin-coil/3]
+        }
+    craftTime: 120
+    }
+  input: {
+        items: [auvathiaworlds-bronze/6]
+        fluids: [auvathiaworlds-energy/2]
+        }
+    output:{
+        items: [auvathiaworlds-bronze-coil/2]
+        }
+    craftTime: 120
+      }
+]
+}
