@@ -1,0 +1,4 @@
+type: OreBlock
+name: nickel ore
+itemDrop: nickel-ore
+cost: 2
