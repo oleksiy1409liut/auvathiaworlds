@@ -1,0 +1,44 @@
+{
+    "name": "LV plate presser",
+	"description": "presses metals into plates with the use of power, can press more complex materials and outputs morr",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "energy", 
+    "requirements": [
+      "copper/160",
+      "lead/150",
+	  "graphite/50",
+	  "tin/45",
+    "LV-circuit-chip/15",
+    "titanium/45",
+    "silicon/55",
+    ],
+    "size": 3,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "recipes": [
+    {
+    "input": {
+        "items": ["auvathiaworlds-tin/4",]
+        "fluids": ["auvathiaworlds-energy/1,]
+        },
+    "output":{
+        "items": ["auvathiaworlds-tin-plate/4",]
+        },
+    "craftTime": 60
+    },
+    {
+    "input": {
+        "items": ["auvathiaworlds-cupronickel-ingot/4",]
+        "fluids": ["auvathiaworlds-energy/2,]
+        },
+    "output":{
+        "items": ["auvathiaworlds-tin-plate/4",]
+        },
+    "craftTime": 120
+    },
+]
+}
