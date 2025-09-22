@@ -1,0 +1,14 @@
+{
+type: material
+name: aluminium ingot
+description: ingot version of the aluminium ore, made in the EBF and used in late-LV and half of MV
+cost: 3.0
+color: ffffff
+research: aluminium-dust
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
