@@ -1,3 +1,4 @@
 type: OreBlock
 name: bauxite ore
 itemDrop: bauxite-ore
+cost: 2
