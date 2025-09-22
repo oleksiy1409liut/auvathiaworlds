@@ -43,7 +43,7 @@
     },
   {
     "input": {
-        "items": ["auvathiaworlds-tin/10","auvathiaworlds-cupronickel-ingot/10","auvathiaworlds-bronze/10",]
+        "items": ["auvathiaworlds-tin-dust/10","auvathiaworlds-cupronickel-plate/10","auvathiaworlds-bronze-coil/5",]
         "fluids": ["auvathiaworlds-energy/2",]
         },
     "output":{
