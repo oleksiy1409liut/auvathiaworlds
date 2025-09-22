@@ -1,0 +1,14 @@
+{
+type: material
+name: cupronickel plate
+description: made from cupronickel alloy ingots in the LV plate presser, sorry for this amount of torture in the mod
+cost: 3
+color: ffffff
+research: cupronickel-ingot
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
