@@ -1,0 +1,14 @@
+{
+type: material
+name: Polytetrafluoroethylene
+description: also known as teflon or PTFE, used in pans, this is prolly useless and shows the complexity of later stuff in the mod
+cost: 3.0
+color: ffffff
+research: silicon
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
