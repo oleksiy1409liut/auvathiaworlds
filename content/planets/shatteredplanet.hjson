@@ -54,11 +54,11 @@ cloudMesh: {
 # A planet generator. For (H)JSON planets it's pre-determined (AsteroidGenerator) and cannot be changed.
 # But you can at least modify the existing one's fields. Highly not recommended unless you REALLY know what you're doing,
 # better make sector presets and don't waste your time with this.
-AsteroidGenerator: {
+generator: {
   # Mininum amount of asteroids.
-  min: 20
+  min: 1
   # Maximum amount of asteroids.
-  max: 25
+  max: 1
 
   # Noise properties.
   octaves: 2
@@ -91,7 +91,7 @@ alwaysUnlocked: true
 # Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
 sectorSize: 2
 # Spacing between a parent (this) and satellites.
-orbitSpacing: 1
+orbitSpacing: 0.5
 # Radius of this planet's sphere.
 radius: 0.5
 # Minimum camera zoom.
