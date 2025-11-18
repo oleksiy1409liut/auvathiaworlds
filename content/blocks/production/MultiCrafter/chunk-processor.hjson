@@ -34,7 +34,7 @@
         fluids: [auvathiaworlds-energy/1]
         }
     output:{
-        items: [coal/3]
+        items: [coal/3,auvathiaworlds-carbon-dust/2,auvathiaworlds-carbon/1]
         }
     craftTime: 120
     }
