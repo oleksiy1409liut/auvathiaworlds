@@ -1,0 +1,4 @@
+type: OreBlock
+name: metallic chunk ore
+itemDrop: metallic-chunk
+cost: 2
