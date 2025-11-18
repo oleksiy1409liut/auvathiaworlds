@@ -1,0 +1,26 @@
+{
+name: geothermal energy converer
+description: converts geotherma energy of slag into liquid energy for convenience
+type: GenericCrafter
+health: 150
+size: 2
+category: crafting
+research: metallic-chunk
+craftTime: 90
+craftEffect: reactorsmoke
+outputLiquid: energy/5
+
+consumes: {
+liquids: [
+slag/1
+]
+}
+
+requirements: [
+graphite/25
+metaglass/55
+silicon/45
+lead/60
+titanium/5
+]
+}
