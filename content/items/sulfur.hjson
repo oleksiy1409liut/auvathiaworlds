@@ -1,0 +1,14 @@
+{
+type: material
+name: sulfur
+description: one of the components of carbonic chunks, used in acid and chemistry
+cost: 3.0
+color: ffffff
+research: carbonic-chunk
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
