@@ -1,0 +1,62 @@
+{
+    name: chunk processor
+	description: used in chunk procession via simple chemicals, produces byproducts sometimes, has most recipes as placeholder stuff sorry, has bad procession recipes and harder ones but with more resource output
+    type: multicraft.MultiCrafter
+    buildCostMultiplier: 0.1
+    category: crafting
+    research: copper
+    requirements: [
+      copper/150
+      lead/150
+      silicon/60
+      graphite/50
+    ]
+    size: 4
+    hasLiquids: true
+    hasItems: true
+    craftEffect: none
+    itemCapacity: 30
+
+    recipes: [
+    {
+    input: {
+        items: [auvathiaworlds-metallic-chunk/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [copper/3,lead/2,sand/1]
+        }
+    craftTime: 120
+    }
+    {
+    input: {
+        items: [auvathiaworlds-carbonic-chunk/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [coal/3]
+        }
+    craftTime: 120
+    }
+        {
+    input: {
+        items: [sand/4]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [sand/3]
+        }
+    craftTime: 120
+    }
+    {
+    input: {
+        items: [coal/6]
+        fluids: [auvathiaworlds-energy/1]
+        }
+    output:{
+        items: [coal/7]
+        }
+    craftTime: 120
+    }
+]
+}
