@@ -1,5 +1,5 @@
 type: OreBlock
-name: metallic chunk ore
-itemDrop: metallic-chunk
+name: carbonic chunk ore
+itemDrop: carbonic-chunk
 cost: 2
 variants: 1
