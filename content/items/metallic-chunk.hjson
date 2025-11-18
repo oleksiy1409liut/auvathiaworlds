@@ -1,1 +1,14 @@
+{
+type: material
+name: metallic chunk
+description: found in space and asteroids in small patches, can be processed into metals
+cost: 0
+color: ffffff
+research: copper
 
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
