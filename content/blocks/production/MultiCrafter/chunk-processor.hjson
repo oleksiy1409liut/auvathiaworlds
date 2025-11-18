@@ -24,7 +24,7 @@
         fluids: [auvathiaworlds-energy/1]
         }
     output:{
-        items: [copper/3,lead/2,sand/1,auvathiaworlds-tin]
+        items: [copper/3,lead/2,sand/1,auvathiaworlds-tin/1]
         }
     craftTime: 120
     }
