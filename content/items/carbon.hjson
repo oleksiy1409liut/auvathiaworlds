@@ -1,0 +1,14 @@
+{
+type: material
+name: carbon
+description: one of components of carbonic chunks, can be used as more advanceddl and some chemistry (graphene yippe)
+cost: 3.0
+color: ffffff
+research: carbonic-chunk
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
