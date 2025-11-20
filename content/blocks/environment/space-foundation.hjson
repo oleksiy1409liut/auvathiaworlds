@@ -1,6 +1,6 @@
 {
   "name": "space foundation",
-  "type": "floor",
+  "type": "blocks",
   "description": "space foundation",
   "size": 1,
   "breakable": false,
@@ -17,5 +17,6 @@
   "health": 100,
   requirements :[
     space-foundation/1
+  isFloor: true
 ]
 }
