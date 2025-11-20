@@ -7,9 +7,6 @@
   "category": "distribution",
   "alwaysReplace": true,
   "placeableLiquid": true,
-  "placeableOn": [
-    "any"
-  ],
   "canOverdrive": false,
   "solid": false,
   "variants": 1,
