@@ -1,14 +1,12 @@
 name: "auvathiaworlds"
 description: 
 ''' 
-the osakan worlds project will focus on adding a new planet(maybe) cluster that can connect with each other (first planets name is osaka)
-  Enjoy!
-   also is the place of containment of some of my ideas like a gregtech-styled mod, so stuff inside the mod can clash
-give this mod a star if you like it, DM theavatar_of_emptiness if you want to contribute to the mod with ideas, sprites or other stuff or if you want to join our discord server
+yo we be making big planets in a mod so please leave a star or im gonna starve to no silicon, dm avatar_of_emptiness in discord if you wanna report shit or you can ask me for our discord server link
+previously auvathia worlds
 '''
-author: "Auvathia team (Me,Bread and some people from mindustry server)"
+author: "Auvathia team (Me,Bread, fish, hun nimbus and some people from the global discord mindustry server)"
 minGameVersion: 146
-version: "alpha v0.1.8"
+version: "alpha v0.2"
 displayName: "Osakan Worlds"
-subtitle: "now with 10% more pain!"
+subtitle: "now with 5% more asteroids!"
 dependencies: ["multi-crafter"]
