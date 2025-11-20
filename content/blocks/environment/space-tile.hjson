@@ -6,3 +6,5 @@ isLiquid: true
 supportsOverlay: true
 IsBuildable: false
 allowOverlay: false
+drownTime: 180
+placeableOn: false
