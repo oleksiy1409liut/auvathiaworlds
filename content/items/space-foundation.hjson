@@ -1,0 +1,14 @@
+{
+type: material
+name: space foundation
+description: quite expensive but allows to build over space
+cost: 0
+color: ffffff
+research: silicon
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
