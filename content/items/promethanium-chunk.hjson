@@ -1,0 +1,14 @@
+{
+type: material
+name: promethanium chunk
+description: found in space and asteroids in small patches, can be processed into promethanium and a little of high-level isotopes (definitely not a factorio item)
+cost: 0
+color: ffffff
+research: uranic-chunk
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
