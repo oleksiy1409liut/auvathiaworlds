@@ -1,8 +1,8 @@
 # Osakan Worlds
 
-A mod that adds a new playable planets with lots of intricate,complex factory building elements into the game to extensify your playthrough!
+A mod that adds new playable planets with lots of intricate,complex factory building elements into the game to extensify your playthrough!
 
-planet progression: serpulo, erekir, osaka, (future planets here)
+planet progression: serpulo, erekir, osaka, shattered planet, (insert future planets)
 
 Them ohno looking good chat 🔥
 
