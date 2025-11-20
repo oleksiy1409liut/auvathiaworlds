@@ -59,4 +59,22 @@
     craftTime: 120
     }
 ]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: molten-material
+      alpha: 1
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
 }
