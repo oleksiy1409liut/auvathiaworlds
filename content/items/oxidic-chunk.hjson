@@ -1,0 +1,14 @@
+{
+type: material
+name: oxidic chunk
+description: found in space and asteroids in small patches, can be processed into calcite, ice and some cold minerals
+cost: 0
+color: ffffff
+research: carbonic-chunk
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
