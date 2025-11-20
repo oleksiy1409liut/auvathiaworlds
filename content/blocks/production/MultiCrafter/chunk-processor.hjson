@@ -11,7 +11,7 @@
       silicon/60
       graphite/50
     ]
-    size: 4
+    size: 3
     hasLiquids: true
     hasItems: true
     craftEffect: none
@@ -59,13 +59,4 @@
     craftTime: 120
     }
 ]
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-}
-]
-}
 }
