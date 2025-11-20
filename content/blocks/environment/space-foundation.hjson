@@ -1,10 +1,10 @@
 {
   "name": "space foundation",
-  "type": "blocks",
+  "type": "floor",
   "description": "space foundation",
   "size": 1,
   "breakable": false,
-  "category": "blocks",
+  "category": "distribution",
   "alwaysReplace": true,
   "placeableLiquid": true,
   "placeableOn": [
