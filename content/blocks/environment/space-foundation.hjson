@@ -14,6 +14,5 @@
   "health": 100,
   requirements :[
     space-foundation/1
-  isFloor: true
 ]
 }
