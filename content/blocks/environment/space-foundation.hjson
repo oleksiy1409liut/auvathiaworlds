@@ -9,6 +9,7 @@
   "placeableLiquid": true,
   "canOverdrive": false,
   "solid": false,
+  placeableFloor: true
   "variants": 1,
   "isBuildable": true,
   "health": 100,
