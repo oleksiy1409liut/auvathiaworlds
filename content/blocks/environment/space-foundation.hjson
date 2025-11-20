@@ -1,0 +1,22 @@
+{
+  "name": "space foundation",
+  "type": "floor",
+  "description": "space foundation",
+  "size": 1,
+  "breakable": false,
+  "category": "blocks",
+  "alwaysReplace": true,
+  "placeableLiquid": true,
+  "placeableOn": [
+    "any"
+  ],
+  "canOverdrive": false,
+  "solid": false,
+  "variants": 1,
+  "isBuildable": true,
+  "health": 100,
+  requirements :[
+    space-foundation/1
+]
+  ],
+}
