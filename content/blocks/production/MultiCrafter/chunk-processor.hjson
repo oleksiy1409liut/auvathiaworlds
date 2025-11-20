@@ -60,3 +60,12 @@
     }
 ]
 }
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+}
+]
+}
