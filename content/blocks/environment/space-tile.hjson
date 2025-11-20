@@ -1,0 +1,6 @@
+type: Floor
+name: space tile
+speedMultiplier: 0.7
+variants: 3
+isLiquid: true
+supportsOverlay: true
