@@ -1,0 +1,14 @@
+{
+type: material
+name: uranic chunk
+description: found in space and asteroids in small patches, can be processed into radioactive materials and high-tech materials
+cost: 0
+color: ffffff
+research: metallic-chunk
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
