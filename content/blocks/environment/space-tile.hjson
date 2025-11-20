@@ -5,3 +5,4 @@ variants: 3
 isLiquid: true
 supportsOverlay: true
 IsBuildable: false
+allowOverlay: false
