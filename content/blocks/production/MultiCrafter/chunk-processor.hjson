@@ -1,3 +1,4 @@
+{
     name: chunk processor
 	description: used in chunk procession via simple chemicals, produces byproducts sometimes, has most recipes as placeholder stuff sorry, has bad procession recipes and harder ones but with more resource output
     type: multicraft.MultiCrafter
@@ -66,4 +67,5 @@ drawer: {
       type: DrawDefault
 }
 ]
+}
 }
