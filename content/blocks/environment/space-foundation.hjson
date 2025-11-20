@@ -1,6 +1,6 @@
 {
   "name": "space foundation",
-  "type": "floor",
+  "type": "Floor",
   "description": "space foundation",
   "size": 1,
   "breakable": false,
