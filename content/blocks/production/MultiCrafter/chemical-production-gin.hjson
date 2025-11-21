@@ -18,7 +18,7 @@ recipes: [
     {
 	input: {
 	 fluids: [auvathiaworlds-energy/1,water/1]
-     items: [sulfur/2]
+     items: [sulfur/2,copper/1]
 	}    
 	output: {
 	 fluids: [sulfuric-acid/0.5]
