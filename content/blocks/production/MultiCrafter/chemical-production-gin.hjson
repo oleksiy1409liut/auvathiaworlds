@@ -1,0 +1,29 @@
+{
+name: Chemical Etra
+description: Main chemical producing block, used for lots of chemicals, uses space foundations and titanium for better chemical encasing and vacuum sealing
+type: multicraft.MultiCrafter
+health: 350
+size: 3
+category: crafting
+research: graphite
+requirements: [
+tin/100
+copper/50
+space-foundation/5
+silicon/50
+titanium/30
+]
+
+recipes: [
+    {
+	input: {
+	 fluids: [auvathiaworlds-energy/1,water/1]
+     items: [sulfur/2]
+	}    
+	output: {
+	 fluids: [sulfuric-acid/0.5]
+	}
+	craftTime: 175
+	}
+]	
+}
