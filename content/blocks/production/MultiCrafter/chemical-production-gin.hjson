@@ -1,5 +1,5 @@
 {
-name: Chemical Etra
+name: Chemical production gin
 description: Main chemical producing block, used for lots of chemicals, uses space foundations and titanium for better chemical encasing and vacuum sealing
 type: multicraft.MultiCrafter
 health: 350
@@ -19,7 +19,7 @@ recipes: [
 	input: {
 	 fluids: [auvathiaworlds-energy/1,water/1]
      items: [sulfur/2,copper/1]
-	}    
+	}
 	output: {
 	 fluids: [sulfuric-acid/1]
 	}
