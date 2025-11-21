@@ -1,0 +1,55 @@
+{
+    "name": "space assembler",
+	"description": "assembler with titanium plating for vacuum-sealing and to be space-proof, also shows youre already known with the basics of the planet enough to get this building, has placeholder recipes",
+    "type": "multicraft.MultiCrafter",
+    "buildCostMultiplier": 0.1,
+    "category": "crafting",
+    "research": "metallic-chunk", 
+    "requirements": [
+      "copper/130",
+      "lead/50",
+	  "graphite/35",
+	  "tin/25",
+	  "silicon/60",
+    "sulfur/5",
+    "titanium/55",
+    ],
+    "size": 3,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftEffect": "none",
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "recipes": [
+    {
+    "input": {
+        "items": ["copper/24","auvathiaworlds-tin/12",]
+        "fluids": ["auvathiaworlds-energy/1.5",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-space-foundation/2"]
+        },
+    "craftTime": 240
+    },
+	{
+    "input": {
+        "items": ["copper/16",]
+        "fluids": ["auvathiaworlds-energy/90",]
+        },
+    "output":{
+        "items": ["auvathiaworlds-tin/1",]
+        },
+    "craftTime": 240
+    },
+  {
+    "input": {
+        "items": ["auvathiaworlds-tin/2",]
+        "fluids": ["auvathiaworlds-energy/200",]
+        },
+    "output":{
+        "items": ["copper/4",]
+        },
+    "craftTime": 360
+   },
+]
+}
