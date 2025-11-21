@@ -18,10 +18,10 @@ recipes: [
     {
 	input: {
 	 fluids: [auvathiaworlds-energy/1,water/1]
-     items: [sulfur/2,copper/1]
+     items: [auvathiaworlds-sulfur/2,copper/1]
 	}
 	output: {
-	 fluids: [sulfuric-acid/1]
+	 fluids: [auvathiaworlds-sulfuric-acid/0.5]
 	}
 	craftTime: 175
 	}
