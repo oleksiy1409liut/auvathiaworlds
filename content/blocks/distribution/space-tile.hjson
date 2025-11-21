@@ -1,7 +1,7 @@
 type: Floor
 name: space tile
 speedMultiplier: 0.7
-variants: 3
+variants: 1
 isLiquid: true
 supportsOverlay: true
 IsBuildable: false
