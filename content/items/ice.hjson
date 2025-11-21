@@ -4,7 +4,7 @@ name: ice
 description: acquired from oxidic chunks or ice formations in space, can be used for water
 cost: 3.0
 color: ffffff
-research: depleted-leaderium
+research: oxidic-chunk
 
 explosiveness: 0
 flammability: 0
