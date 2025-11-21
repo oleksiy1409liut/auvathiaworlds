@@ -1,0 +1,5 @@
+type: OreBlock
+name: oxidic chunk ore
+itemDrop: oxidic-chunk
+cost: 2
+variants: 1
