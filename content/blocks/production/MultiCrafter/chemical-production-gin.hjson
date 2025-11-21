@@ -21,7 +21,7 @@ recipes: [
      items: [sulfur/2,copper/1]
 	}    
 	output: {
-	 fluids: [sulfuric-acid/0.5]
+	 fluids: [sulfuric-acid/1]
 	}
 	craftTime: 175
 	}
