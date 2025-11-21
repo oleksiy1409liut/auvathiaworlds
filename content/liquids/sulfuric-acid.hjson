@@ -1,0 +1,14 @@
+{
+name: sulfuric acid
+description: acidic liuid used in slightly more advanced processing and other stuff like processing advanced asteroids
+type: liquid
+temperature: 0
+viscosity: 1
+flammability: 0
+explosiveness: 0
+heatCapacity: 0
+color: 1f1710
+lightColor: 3b2d28
+research: sulfur
+gas: false
+}
