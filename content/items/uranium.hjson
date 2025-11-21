@@ -1,0 +1,14 @@
+{
+type: material
+name: uranium
+description: highly radioactive material used in reactors as main fuel, expensive and can explode if not cooled enough
+cost: 3.0
+color: ffffff
+research: uranic-chunk
+
+explosiveness: 2
+flammability: 0
+radioactivity: 10
+charge: 1
+hardness: 2
+}
