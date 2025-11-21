@@ -41,7 +41,7 @@
         {
     input: {
         items: [auvathiaworlds-oxidic-chunk/4]
-        fluids: [auvathiaworlds-energy/1,auvathiaworlds-sulfuric-acid/0.25]
+        fluids: [auvathiaworlds-energy/1]
         }
     output:{
         items: [titanium/2,auvathiaworlds-ice/2,auvathiaworlds-calcite/3]
