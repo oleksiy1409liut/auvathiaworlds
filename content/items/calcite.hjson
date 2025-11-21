@@ -1,0 +1,14 @@
+{
+type: material
+name: calcite
+description: found mostly in hot areas of asteroids or vulcanic planets, used for advanced smelting and melting and some chemistry
+cost: 3.0
+color: ffffff
+research: oxidic-chunk
+
+explosiveness: 0
+flammability: 0
+radioactivity:0
+charge: 0
+hardness: 0
+}
