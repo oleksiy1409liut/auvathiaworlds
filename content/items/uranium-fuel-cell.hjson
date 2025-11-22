@@ -1,0 +1,14 @@
+{
+type: material
+name: uranium fuel cell
+description: very radioactive cell with uranium insii used as fuel for reactors or other stuff
+cost: 3.0
+color: ffffff
+research: uranium
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
