@@ -8,5 +8,5 @@ author: "Auvathia team (Me,Bread, fish, hun nimbus and some people from the glob
 minGameVersion: 146
 version: "alpha v0.2"
 displayName: "Osakan Worlds"
-subtitle: "now with 5% more asteroids!"
+subtitle: "now with 50% more asteroids!"
 dependencies: ["multi-crafter"]
