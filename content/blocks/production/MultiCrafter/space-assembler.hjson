@@ -31,13 +31,13 @@
         },
     "craftTime": 240
     },
-	{
+  {
     "input": {
         "items": ["titanium/1","metaglass/2",]
         "fluids": ["auvathiaworlds-energy/1",]
         },
     "output":{
-        "items": ["empty-cell/1",]
+        "items": ["auvathiaworlds-empty-cell/1",]
         },
     "craftTime": 240
     },
