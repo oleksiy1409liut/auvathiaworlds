@@ -33,11 +33,11 @@
     },
 	{
     "input": {
-        "items": ["copper/16",]
-        "fluids": ["auvathiaworlds-energy/90",]
+        "items": ["titanium/1","metaglass/2",]
+        "fluids": ["auvathiaworlds-energy/1",]
         },
     "output":{
-        "items": ["auvathiaworlds-tin/1",]
+        "items": ["empty-cell/1",]
         },
     "craftTime": 240
     },
