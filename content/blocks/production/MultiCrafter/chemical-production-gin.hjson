@@ -25,5 +25,15 @@ recipes: [
 	}
 	craftTime: 175
 	}
+    {
+	input: {
+	 fluids: [auvathiaworlds-energy/1]
+     items: [auvathiaworlds-ice/2]
+	}
+	output: {
+	 fluids: [water/1]
+	}
+	craftTime: 175
+	}
 ]	
 }
