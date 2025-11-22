@@ -1,0 +1,14 @@
+{
+type: material
+name: empty cell
+description: made from some metaglass and titanium, used to contain heavily radioactive items or for use in reactors if has isotopes in it, can be also used for liquid containing
+cost: 3.0
+color: ffffff
+research: titanium
+
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 0
+}
