@@ -1,0 +1,39 @@
+{
+name: nuclear centrifuge
+description: centrifuge for most nuclear centrifuging recipes, has placeholder recipes
+type: multicraft.MultiCrafter
+health: 350
+size: 3
+category: crafting
+research: graphite
+requirements: [
+tin/100
+copper/50
+space-foundation/5
+silicon/50
+titanium/30
+]
+
+recipes: [
+    {
+	input: {
+	 fluids: [auvathiaworlds-energy/2,auvathiaworlds-sulfuric-acid/1]
+     items: [uranic-chunk/4]
+	}
+	output: {
+	   items: [auvathiaworlds-uranium-shard/1,auvathiaworlds-uranium-236]
+	}
+	craftTime: 175
+	}
+    {
+	input: {
+	 fluids: [auvathiaworlds-energy/100]
+     items: [auvathiaworlds-ice/100]
+	}
+	output: {
+	 fluids: [water/0.5]
+	}
+	craftTime: 175
+	}
+]	
+}
