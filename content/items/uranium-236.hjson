@@ -1,6 +1,6 @@
 {
 type: material
-name: uranium-238
+name: uranium-236
 description: stable version of the uranium-235, easy to contain and pretty much useless
 cost: 3.0
 color: ffffff
