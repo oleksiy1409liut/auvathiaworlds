@@ -1,0 +1,14 @@
+{
+type: material
+name: uranium-235
+description: unstable version of uranium, used in most nuclear research and energy, highly unstable
+cost: 3.0
+color: ffffff
+research: uranic-shard
+
+explosiveness: 2
+flammability: 0
+radioactivity: 10
+charge: 1
+hardness: 2
+}
