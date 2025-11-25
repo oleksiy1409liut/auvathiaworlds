@@ -1,7 +1,7 @@
 {
 type: material
-name: uranium
-description: highly radioactive material used in reactors as main fuel, expensive and can explode if not cooled enough
+name: uranium-238
+description: stable version of the uranium-235, easy to contain and pretty much useless
 cost: 3.0
 color: ffffff
 research: uranic-chunk
