@@ -18,7 +18,7 @@ recipes: [
     {
 	input: {
 	 fluids: [auvathiaworlds-energy/2,auvathiaworlds-sulfuric-acid/1]
-     items: [uranic-chunk/4]
+     items: [auvathiaworlds-uranic-chunk/4]
 	}
 	output: {
 	   items: [auvathiaworlds-uranium-shard/1,auvathiaworlds-uranium-236]
