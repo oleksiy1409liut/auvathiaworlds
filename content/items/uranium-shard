@@ -1,0 +1,14 @@
+{
+type: material
+name: uranium-235 shard
+description: shard of uranium-235, assemble them for full usage or you can make 1 uranium fuel cell out of one of these
+cost: 3.0
+color: ffffff
+research: uranic-chunk
+
+explosiveness: 2
+flammability: 0
+radioactivity: 10
+charge: 1
+hardness: 2
+}
